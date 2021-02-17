@@ -2,7 +2,7 @@
 #  macOS on Lenovo E570
 
 <h3> 
-    <a href="https://github.com/relaxewdy/Thinkpad-E570-Hackintosh-OpenCore/blob/main/README.md">English</a>
+    <a href="https://github.com/relaxewdy/Thinkpad-E570-Hackintosh-OpenCore/blob/main/README.md">English</a> |
     <a href="https://github.com/relaxewdy/Thinkpad-E570-Hackintosh-OpenCore/blob/main/README-tr.md">Türkçe</a>
 </h3>
 
