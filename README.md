@@ -11,48 +11,45 @@ OpenCore config for Hackintosh OpenCore Lenovo E570.
 
 
 <!-- omit in toc -->
-# System Info
+## Hardware
 
-         Intel (R) Core (TM) i5-7200U CPU @ 2.50GHz
+| **LENOVO** | Detail                                                  |
+| ------------------- | ------------------------------------------- |
+| Model Name      | Lenovo E570      |
+| CPU              | Intel(R) Core(TM) i5-7200U CPU @ 2.40GHz Kaby Lake             |
+| RAM           | 8 GB 2400 MHz DDR4    |
+| Graphic Card | Intel(R) HD Graphics 620 (1 GB)                     |
+| Wi-Fi             | DW1820A 802.11ac |
+| Ses       | Conexant CX20753/4                       |
 
-         Samsung 8 (4 + 4) GB DDR4-2400
+## What are working
 
-         Intel (R) HD Graphics 620
+- Turbo boost and CPU frequency stage.
 
-         Type-C (1) Usb 3.0 (2) Usb 2.0 (1)
+- Intel UHD Graphics 620 
 
-         Conexant CX20753 / 4 @ Intel Sunrise Point-LP PCH
+- Audio Conexant CX20753/4 
+  - layout-id: `15`
 
-         Intel Kaby Lake HDMI @ Intel Sunrise Point-LP PCH
+- Realtek Ethernet RTL8111
 
-         DW1820A 802.11ac Wireless Network Adapter
+- DW1820A Wi-Fi and Bluetooth (Airdrop, Handoff..)
 
-               +i deleted dw1820a properties and kexts in efi
+- USB 3.0 and Type-C
 
-         Realtek RTL8168 / 8111 PCI-E Gigabit Ethernet Adaptörü (PHY: Realtek RTL8111)
+- Brightness control
 
+- Touchpad (14 gestures are working)
 
--Whats Working
+- Battery status
 
-         Sleep
-         
-         Sound
-         
-         Ethernet Port
-         
-         Intel (R) HD Graphics 620
-         
-         Bluetooth
-         
-         Wifi (with DW1820A or another card)
-         
-         Battery
-         
-         Type-C and Usb Ports (USB Mapping)
-         
-         Touchpad (14 Gestures)
-         
-         Trackpad
-    
-    
+- S3 Sleep / Wake
+
+- S4 Hibernation / Wake
+
+- Camera
+
+- Fn shortcut keys
+
+ 
 With OpenCore Configrator you should definitely set your SMBIOS settings because the config does not contain SMBIOS information MacBook Pro 14.1
