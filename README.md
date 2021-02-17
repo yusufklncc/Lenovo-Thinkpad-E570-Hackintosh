@@ -1,4 +1,4 @@
--Sistem Bilgileri
+-System Info
     Intel (R) Core (TM) i5-7200U CPU @ 2.50GHz
     Samsung 8 (4 + 4) GB DDR4-2400
     Intel (R) HD Graphics 620
