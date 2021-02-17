@@ -1,8 +1,12 @@
 <!-- omit in toc -->
-#  macOS on Tongfang Laptops
+#  macOS on Lenovo E570
+
+<img align="right" src="https://i.loli.net/2021/02/17/NSFk9yputKJ87jd.png" width="200px" alt="preview">
 
 OpenCore config for Hackintosh OpenCore Lenovo E570.
 
+
+<!-- omit in toc -->
 # System Info
 
          Intel (R) Core (TM) i5-7200U CPU @ 2.50GHz
