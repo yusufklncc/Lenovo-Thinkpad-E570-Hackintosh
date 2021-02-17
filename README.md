@@ -3,7 +3,7 @@
 
 <h3> 
     English |
-    <a href="https://github.com/kirainmoe/hasee-tongfang-macos/blob/oc-general/README-tr.md">Türkçe</a>
+    <a href="https://github.com/relaxewdy/Thinkpad-E570-Hackintosh-OpenCore/blob/main/README-tr.md">Türkçe</a>
 </h3>
 
 <img align="right" src="https://i.loli.net/2021/02/17/NSFk9yputKJ87jd.png" width="200px" alt="preview">
