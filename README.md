@@ -1,4 +1,9 @@
--System Info
+<!-- omit in toc -->
+#  macOS on Tongfang Laptops
+
+OpenCore config for Hackintosh OpenCore Lenovo E570.
+
+# System Info
 
          Intel (R) Core (TM) i5-7200U CPU @ 2.50GHz
 
