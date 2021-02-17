@@ -9,6 +9,13 @@ OpenCore config for Hackintosh OpenCore Lenovo E570.
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.6.6-9cf)](https://github.com/acidanthera/OpenCorePkg)
 [![release](https://img.shields.io/badge/download-lastest%20version-blue.svg)](https://github.com/sutsurup/MONSTER-Hackintosh/releases)
 
+## Screenshot
+<details>
+<summary>Big Sur</summary>
+
+![](https://i.loli.net/2021/02/17/svA1zWm6CrGBDu3.png)
+
+</details>
 
 <!-- omit in toc -->
 ## Hardware
