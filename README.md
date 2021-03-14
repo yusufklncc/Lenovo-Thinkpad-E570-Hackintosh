@@ -32,7 +32,7 @@ OpenCore config for Hackintosh OpenCore Lenovo E570.
 | RAM           | 8 GB 2400 MHz DDR4    |
 | Graphic Card | Intel(R) HD Graphics 620 (1 GB)                     |
 | Wi-Fi             | DW1820A 802.11ac |
-| Ses       | Conexant CX20753/4                       |
+| Audio       | Conexant CX20753/4                       |
 
 ## What are working (Everything)
 
