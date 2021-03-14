@@ -39,6 +39,7 @@ OpenCore config for Hackintosh OpenCore Lenovo E570.
 - Turbo boost and CPU frequency stage.
 
 - Intel UHD Graphics 620 
+  - HDMI Works Perfect 
 
 - Audio Conexant CX20753/4 
   - layout-id: `15`
