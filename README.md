@@ -11,7 +11,7 @@
 OpenCore config for Hackintosh OpenCore Lenovo E570.
 
 [![macOS](https://img.shields.io/badge/macOS-11.2-orange)](https://www.apple.com/tr/macos/big-sur/)
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.6-9cf)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.7-9cf)](https://github.com/acidanthera/OpenCorePkg)
 [![release](https://img.shields.io/badge/download-lastest%20version-blue.svg)](https://github.com/relaxewdy/Thinkpad-E570-Hackintosh-OpenCore/releases/tag/relaxewdy)
 
 ## Screenshot
@@ -34,7 +34,7 @@ OpenCore config for Hackintosh OpenCore Lenovo E570.
 | Wi-Fi             | DW1820A 802.11ac |
 | Ses       | Conexant CX20753/4                       |
 
-## What are working
+## What are working (Everything)
 
 - Turbo boost and CPU frequency stage.
 
@@ -47,7 +47,7 @@ OpenCore config for Hackintosh OpenCore Lenovo E570.
 
 - DW1820A Wi-Fi and Bluetooth (Airdrop, Handoff..)
 
-- USB 3.0 and Type-C
+- USB 3.0 and Type-C (with Port Mapping by Hackintool)
 
 - Brightness control
 
@@ -62,6 +62,12 @@ OpenCore config for Hackintosh OpenCore Lenovo E570.
 - Camera
 
 - Fn shortcut keys
+
+## What You Have to Do
+
+- SMBIOS Settings
+
+- Add Device Properties Network Controller(WiFi) because i removed
 
  
 With OpenCore Configrator you should definitely set your SMBIOS settings because the config does not contain SMBIOS information MacBook Pro 14.1
