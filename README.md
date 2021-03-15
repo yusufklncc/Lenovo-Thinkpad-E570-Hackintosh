@@ -36,6 +36,8 @@ OpenCore config for Hackintosh OpenCore Lenovo E570.
 
 
 ## What are working (Everything)
+
+| **x**     |                                    |
 | ----------------------------------- | -------- |
 | Turbo boost and CPU frequency stage |  ✅  |
 
