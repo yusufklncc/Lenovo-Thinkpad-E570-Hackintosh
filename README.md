@@ -36,33 +36,33 @@ OpenCore config for Hackintosh OpenCore Lenovo E570.
 
 ## What are working (Everything)
 
-- Turbo boost and CPU frequency stage.
+- Turbo boost and CPU frequency stage.✅ 
 
-- Intel UHD Graphics 620 
+- Intel UHD Graphics 620 ✅ 
   - HDMI Works Perfect 
 
-- Audio Conexant CX20753/4 
+- Audio Conexant CX20753/4 ✅ 
   - layout-id: `15`
 
-- Realtek Ethernet RTL8111
+- Realtek Ethernet RTL8111 ✅ 
 
-- DW1820A Wi-Fi and Bluetooth (Airdrop, Handoff..)
+- DW1820A Wi-Fi and Bluetooth (Airdrop, Handoff..) ✅ 
 
-- USB 3.0 and Type-C (with Port Mapping by Hackintool)
+- USB 3.0 and Type-C (with Port Mapping by Hackintool) ✅ 
 
-- Brightness control
+- Brightness control ✅ 
 
-- Touchpad (14 gestures are working)
+- Touchpad (14 gestures are working) ✅ 
 
-- Battery status
+- Battery status ✅ 
 
-- S3 Sleep / Wake
+- S3 Sleep / Wake ✅ 
 
-- S4 Hibernation / Wake
+- S4 Hibernation / Wake ✅ 
 
-- Camera
+- Camera ✅ 
 
-- Fn shortcut keys
+- Fn shortcut keys ✅ 
 
 ## What You Have to Do
 
