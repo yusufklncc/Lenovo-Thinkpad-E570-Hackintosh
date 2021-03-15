@@ -34,6 +34,7 @@ OpenCore config for Hackintosh OpenCore Lenovo E570.
 | Wi-Fi             | DW1820A 802.11ac |
 | Audio       | Conexant CX20753/4                       |
 
+| **LENOVO** | Detail                                                  |
 | ------------------- | ------------------------------------------- |
 | Model Name      | Lenovo E570      |
 | CPU              | Intel(R) Core(TM) i5-7200U CPU @ 2.40GHz Kaby Lake             |
