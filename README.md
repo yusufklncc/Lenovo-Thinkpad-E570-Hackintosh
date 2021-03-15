@@ -45,24 +45,15 @@ OpenCore config for Hackintosh OpenCore Lenovo E570.
 |  HDMI                                |  ✅  |
 |  Audio Conexant CX20753/4 layout-id: `15` |  ✅  |
 |  Realtek Ethernet RTL8111            |  ✅  | 
-|  DW1820A Wi-Fi and Bluetooth, Airdrop, Handoff, SideCar...         |  ✅  |
-|  Airdrop, Handoff, SideCar...        |  ✅  |
-|  USB 3.0 and Type-C (with Port Map   |  ✅  |
-|
-|
-|
-
-- Touchpad (14 gestures are working) ✅ 
-
-- Battery status ✅ 
-
-- S3 Sleep / Wake ✅ 
-
-- S4 Hibernation / Wake ✅ 
-
-- Camera ✅ 
-
-- Fn shortcut keys ✅ 
+|  DW1820A Wi-Fi and Bluetooth, Airdrop, Handoff, SideCar, iMessage...         |  ✅  |
+|  USB 3.0 and Type-C (with Port Map        |  ✅  |
+|  Touchpad (14 gestures are working)   |  ✅  |
+|  Battery status   |  ✅  |
+|  S3 Sleep / Wake   |  ✅  |
+|  S4 Hibernation / Wake   |  ✅  |
+|  Camera   |  ✅  |
+|  Fn shortcut keys   |  ✅  |
+ 
 
 ## What You Have to Do
 
