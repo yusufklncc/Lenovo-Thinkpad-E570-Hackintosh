@@ -39,13 +39,13 @@ OpenCore config for Hackintosh OpenCore Lenovo E570.
 
 | **x**                                |                                    |
 | -----------------------------------  | -------- |
-|  Turbo boost and CPU frequency stage asfasdafasdfasfasdfdasfasfdagadsfadsfasdf |  ✅  |
+|  Turbo boost and CPU frequency stage |  ✅  |
 |  Intel UHD Graphics 620              |  ✅  |
 |  Brightness control                  |  ✅  |
 |  HDMI                                |  ✅  |
 |  Audio Conexant CX20753/4 layout-id: `15` |  ✅  |
 |  Realtek Ethernet RTL8111            |  ✅  | 
-|  DW1820A Wi-Fi and Bluetooth         |  ✅  |
+|  DW1820A Wi-Fi and Bluetooth, Airdrop, Handoff, SideCar...         |  ✅  |
 |  Airdrop, Handoff, SideCar...        |  ✅  |
 |  USB 3.0 and Type-C (with Port Map   |  ✅  |
 |
