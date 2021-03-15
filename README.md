@@ -37,7 +37,7 @@ OpenCore config for Hackintosh OpenCore Lenovo E570.
 
 ## What are working (Everything)
 
-| **x**                                |                                    |
+| **Details**                                |                                    |
 | -----------------------------------  | -------- |
 |  Turbo boost and CPU frequency stage |  ✅  |
 |  Intel UHD Graphics 620              |  ✅  |
