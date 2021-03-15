@@ -35,7 +35,7 @@ OpenCore config for Hackintosh OpenCore Lenovo E570.
 | Audio       | Conexant CX20753/4                       |
 
 ## What are working (Everything)
-
+| ----------------------------------- | -------- |
 | Turbo boost and CPU frequency stage |  ✅  |
 
 - Intel UHD Graphics 620 ✅ 
