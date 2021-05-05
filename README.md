@@ -31,7 +31,7 @@ OpenCore config for Hackintosh OpenCore Lenovo E570.
 | CPU              | Intel(R) Core(TM) i5-7200U CPU @ 2.40GHz Kaby Lake             |
 | RAM           | 8 GB 2400 MHz DDR4    |
 | Graphic Card | Intel(R) HD Graphics 620 (1 GB)                     |
-| Wi-Fi             | DW1820A 802.11ac |
+| Wi-Fi             | Intel (replaced with DW1820A) |
 | Audio       | Conexant CX20753/4                       |
 
 
