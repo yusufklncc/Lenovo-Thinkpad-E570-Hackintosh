@@ -59,7 +59,6 @@ OpenCore config for Hackintosh OpenCore Lenovo E570.
 
 - SMBIOS Settings
 
-- Add Device Properties Network Controller(WiFi) because i removed
 
  
 With OpenCore Configrator you should definitely set your SMBIOS settings because the config does not contain SMBIOS information MacBook Pro 14.1
