@@ -36,32 +36,21 @@ Lenovo E570 için OpenCore config dosyası.
 
 ## Neler Çalışıyor
 
-- Turbo hızlandırma ve İşlemci Frekansı.
-
-- Intel HD Grafik 620 
-
-- Ses Conexant CX20753/4 
-  - layout-id: `15`
-
-- Realtek Ethernet RTL8111
-
-- DW1820A Wi-Fi ve Bluetooth (Airdrop, Handoff..)
-
-- USB 3.0 and Type-C
-
-- Parlaklık Kontrolü
-
-- Touchpad (14 harekette çalışıyor)
-
-- Batarya Durumu
-
-- Uyku / Uyanma
-
-- Hazırda Bekletme ve Uyanma
-
-- Kamera
-
-- Fn kısayol tuşları
+| **Detaylar**                                |                                    |
+| -----------------------------------  | -------- |
+|  Turbo hızlandırma ve CPU frekansı |  ✅  |
+|  Intel UHD Grafikleri 620              |  ✅  |
+|  Parlaklık Kontrolü                  |  ✅  |
+|  HDMI                                |  ✅  |
+|  Ses Conexant CX20753/4 layout-id: `15` |  ✅  |
+|  Realtek Ethernet RTL8111            |  ✅  | 
+|  DW1820A Wi-Fi and Bluetooth, Airdrop, Handoff, SideCar, iMessage...         |  ✅  |
+|  USB 3.0 and Type-C (with Port Map)        |  ✅  |
+|  Touchpad (14 gestures are working)   |  ✅  |
+|  Battery status   |  ✅  |
+|  S3 Uyku / Uyanma   |  ✅  |
+|  Kamera   |  ✅  |
+|  Fn Kısayolları   |  ✅  |
 
  
 Kesinlikle OpenCore Configrator ile SMBIOS ayarlarınızı yapmayı unutmayın.
