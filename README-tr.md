@@ -10,8 +10,8 @@
 
 Lenovo E570 için OpenCore config dosyası.
 
-[![macOS](https://img.shields.io/badge/macOS-11.2-orange)](https://www.apple.com/tr/macos/big-sur/)
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.6-9cf)](https://github.com/acidanthera/OpenCorePkg)
+[![macOS](https://img.shields.io/badge/macOS-11.3.1-orange)](https://www.apple.com/tr/macos/big-sur/)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.9-9cf)](https://github.com/acidanthera/OpenCorePkg)
 [![release](https://img.shields.io/badge/download-lastest%20version-blue.svg)](https://github.com/relaxewdy/Thinkpad-E570-Hackintosh-OpenCore/releases/tag/relaxewdy)
 
 ## Ekran Görüntüsü
@@ -31,12 +31,12 @@ Lenovo E570 için OpenCore config dosyası.
 | İşlemci              | Intel(R) Core(TM) i5-7200U CPU @ 2.40GHz Kaby Lake             |
 | RAM           | 8 GB 2400 MHz DDR4    |
 | Dahili Grafik Kartı | Intel(R) HD Grafik 620 (1 GB)                     |
-| Wi-Fi             | DW1820A 802.11ac |
+| Wi-Fi             | QCA9377 (DW1820A 802.11ac ile değiştirildi) |
 | Ses       | Conexant CX20753/4                       |
 
 ## Neler Çalışıyor
 
-- Turbo hızlandırma and İşlemci Frekansı.
+- Turbo hızlandırma ve İşlemci Frekansı.
 
 - Intel HD Grafik 620 
 
@@ -64,6 +64,7 @@ Lenovo E570 için OpenCore config dosyası.
 - Fn kısayol tuşları
 
  
-Kesinlikle OpenCore Configrator ile SMBIOS ayarlarınızı yapın çünkü config dosyası her hangi bir SMBIOS bilgisi içermiyor.
+Kesinlikle OpenCore Configrator ile SMBIOS ayarlarınızı yapmayı unutmayın.
  - MacBook Pro 14.1
+ - Confiği yeniden adlandır
 
