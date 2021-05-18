@@ -10,8 +10,8 @@
 
 OpenCore config for Hackintosh OpenCore Lenovo E570.
 
-[![macOS](https://img.shields.io/badge/macOS-11.2.3-orange)](https://www.apple.com/tr/macos/big-sur/)
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.7-9cf)](https://github.com/acidanthera/OpenCorePkg)
+[![macOS](https://img.shields.io/badge/macOS-11.3.1-orange)](https://www.apple.com/tr/macos/big-sur/)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.9-9cf)](https://github.com/acidanthera/OpenCorePkg)
 [![release](https://img.shields.io/badge/download-lastest%20version-blue.svg)](https://github.com/relaxewdy/Thinkpad-E570-Hackintosh-OpenCore/releases/tag/relaxewdy)
 
 ## Screenshot
@@ -31,7 +31,7 @@ OpenCore config for Hackintosh OpenCore Lenovo E570.
 | CPU              | Intel(R) Core(TM) i5-7200U CPU @ 2.40GHz Kaby Lake             |
 | RAM           | 8 GB 2400 MHz DDR4    |
 | Graphic Card | Intel(R) HD Graphics 620 (1 GB)                     |
-| Wi-Fi             | Intel (replaced with DW1820A) |
+| Wi-Fi             | QCA9377 (replaced with DW1820A) |
 | Audio       | Conexant CX20753/4                       |
 
 
@@ -58,6 +58,7 @@ OpenCore config for Hackintosh OpenCore Lenovo E570.
 ## What You Have to Do
 
 - SMBIOS Settings
+- Rename config
 
 
  
