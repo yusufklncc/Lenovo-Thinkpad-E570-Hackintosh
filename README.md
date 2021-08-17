@@ -18,7 +18,7 @@ OpenCore config for Hackintosh OpenCore Lenovo E570.
 <details>
 <summary>Big Sur</summary>
 
-![](https://i.loli.net/2021/02/17/svA1zWm6CrGBDu3.png)
+![](https://github.com/relaxewdy/Lenovo-Thinkpad-E570-Hackintosh/blob/main/BigSur.png)
 
 </details>
 
