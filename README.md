@@ -6,12 +6,12 @@
     <a href="https://github.com/relaxewdy/Thinkpad-E570-Hackintosh-OpenCore/blob/main/README-tr.md">Türkçe</a>
 </h3>
 
-<img align="right" src="https://github.com/relaxewdy/Lenovo-Thinkpad-E570-Hackintosh/blob/main/E570.png?raw=true" width="350px" alt="preview">
+<img align="right" src="https://github.com/relaxewdy/Lenovo-Thinkpad-E570-Hackintosh/blob/main/E570.png?raw=true" width="300px" alt="preview">
 
 OpenCore config for Hackintosh OpenCore Lenovo E570.
 
-[![macOS](https://img.shields.io/badge/macOS-11.3.1-orange)](https://www.apple.com/tr/macos/big-sur/)
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.9-9cf)](https://github.com/acidanthera/OpenCorePkg)
+[![macOS](https://img.shields.io/badge/macOS-11.6-orange)](https://www.apple.com/tr/macos/big-sur/)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.7.3-9cf)](https://github.com/acidanthera/OpenCorePkg)
 [![release](https://img.shields.io/badge/download-lastest%20version-blue.svg)](https://github.com/relaxewdy/Thinkpad-E570-Hackintosh-OpenCore/releases/tag/relaxewdy)
 
 ## Screenshot
@@ -43,10 +43,10 @@ OpenCore config for Hackintosh OpenCore Lenovo E570.
 |  Intel UHD Graphics 620              |  ✅  |
 |  Brightness control                  |  ✅  |
 |  HDMI                                |  ✅  |
-|  Audio Conexant CX20753/4 layout-id: `15` |  ✅  |
+|  Audio Conexant CX20753/4            |  ✅  |
 |  Realtek Ethernet RTL8111            |  ✅  | 
 |  DW1820A Wi-Fi and Bluetooth, Airdrop, Handoff, SideCar, iMessage...         |  ✅  |
-|  USB 3.0 and Type-C (with Port Map        |  ✅  |
+|  USB 3.0 and Type-C (with Port Map)        |  ✅  |
 |  Touchpad (14 gestures are working)   |  ✅  |
 |  Battery status   |  ✅  |
 |  S3 Sleep / Wake   |  ✅  |
