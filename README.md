@@ -37,7 +37,7 @@ OpenCore config for Hackintosh OpenCore Lenovo E570.
 # Update History
 - [x] macOS Monterey 12.0.1
 - [x] macOS Big Sur 11.6.1
-- [x] macOS Big Sur 11.0.
+- [x] macOS Big Sur 11.0.1
 
 # What's Working?
 |                                 |                                    |
