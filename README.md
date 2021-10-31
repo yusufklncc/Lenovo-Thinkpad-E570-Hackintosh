@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# <img align="left" src="https://github.com/yusfklncc/HP-EliteBook-840-G5-Hackintosh/blob/main/Apple.png" width="30px" alt="preview">macOS on Lenovo E570
+# <img align="left" src="https://github.com/yusfklncc/HP-EliteBook-840-G5-Hackintosh/blob/main/Apple.png" width="30px" alt="preview">macOS on Lenovo Thinkpad E570
 
 <h3> 
     English
@@ -7,7 +7,7 @@
 
 <img align="right" src="https://github.com/relaxewdy/Lenovo-Thinkpad-E570-Hackintosh/blob/main/E570.png?raw=true" width="300px" alt="preview">
 
-OpenCore config for Hackintosh OpenCore Lenovo E570.
+OpenCore config for Hackintosh OpenCore Lenovo Thinkpad E570.
 
 [![macOS](https://img.shields.io/badge/macOS-12.0.1-orange)](https://www.apple.com/tr/macos/big-sur/)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.4-9cf)](https://github.com/acidanthera/OpenCorePkg)
@@ -26,7 +26,7 @@ OpenCore config for Hackintosh OpenCore Lenovo E570.
 
 | **LENOVO** | Detail                                                  |
 | ------------------- | ------------------------------------------- |
-| Model Name      | Lenovo E570      |
+| Model Name      | Lenovo Thinkpad E570      |
 | CPU              | Intel(R) Core(TM) i5-7200U CPU @ 2.40GHz Kaby Lake             |
 | RAM           | 8 GB 2400 MHz DDR4    |
 | Internal Graphics Card | Intel(R) HD Graphics 620 (1 GB)                     |
