@@ -58,11 +58,11 @@ OpenCore config for Hackintosh OpenCore Lenovo Thinkpad E570.
 |  Shutdown / Reboot   |  ✅  |
 |  Fn shortcut keys   |  ✅  |
  
-# What You Have to Do ⚠️
+# What You Have to Do?
 |                                 |                                    |
 | -----------------------------------  | -------- |
-|  SMBIOS Settings  |    |
-|  Rename config    |    |
+|  SMBIOS Settings  | ⚠️ |
+|  Rename config    | ⚠️ |
 
  
 With OpenCore Configrator you should definitely set your SMBIOS settings because the config does not contain SMBIOS information MacBook Pro 14.1
