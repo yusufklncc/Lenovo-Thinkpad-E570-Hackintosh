@@ -65,5 +65,6 @@ OpenCore config for Hackintosh OpenCore Lenovo Thinkpad E570.
 |  Rename config    | ⚠️ |
 
 If you install Monterey+, you can delete BrcmBluetoothInjector.kext in OC/Kexts. 
+
 If you install Big Sur-, you can delete BlueToolFixup.kext in OC/Kexts.
 With OpenCore Configrator you should definitely set your SMBIOS settings because the config does not contain SMBIOS information MacBook Pro 14.1
