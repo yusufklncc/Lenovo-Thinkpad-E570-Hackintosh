@@ -15,15 +15,39 @@ OpenCore config for Hackintosh OpenCore Lenovo Thinkpad E570.
 
 ## Screenshot
 <details>
-<summary>Big Sur</summary>
+<summary>Monterey</summary>
 
-![](https://github.com/relaxewdy/Lenovo-Thinkpad-E570-Hackintosh/blob/main/BigSur.png)
+![](https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Monterey.png)
 
 </details>
 <details>
 <summary>Big Sur</summary>
 
-![](https://github.com/relaxewdy/Lenovo-Thinkpad-E570-Hackintosh/blob/main/BigSur.png)
+![](https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Big%20Sur.png)
+
+</details>
+<details>
+<summary>Catalina</summary>
+
+![](https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Catalina.png)
+
+</details>
+<details>
+<summary>Mojave</summary>
+
+![](https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Mojave.png)
+
+</details>
+<details>
+<summary>High Sierra</summary>
+
+![](https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/High%20Sierra.png)
+
+</details>
+<details>
+<summary>Sierra</summary>
+
+![](https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Sierra.png)
 
 </details>
 
