@@ -6,6 +6,11 @@
 
 OpenCore config for Hackintosh OpenCore Lenovo Thinkpad E570.
 
+<p align="center">
+<a href="https://www.apple.com/macos/monterey/">
+  <img src="https://img.shields.io/badge/macOS-12.0.1-orange"/> </a>
+</p>
+
 [![macOS](https://img.shields.io/badge/macOS-12.0.1-orange)](https://www.apple.com/tr/macos/big-sur/)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.5-9cf)](https://github.com/acidanthera/OpenCorePkg)
 [![release](https://img.shields.io/badge/download-lastest%20version-blue.svg)](https://github.com/relaxewdy/Thinkpad-E570-Hackintosh-OpenCore/releases)
