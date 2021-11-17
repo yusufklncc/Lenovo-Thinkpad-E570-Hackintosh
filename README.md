@@ -1,6 +1,4 @@
-<img align="center" src="https://github.com/yusfklncc/HP-EliteBook-840-G5-Hackintosh/blob/main/Apple.png" width="30px" 
-
-<h1 align="center"> macOS on Lenovo Thinkpad E570 </h1>
+<h1 align="center"> macOS on Lenovo Thinkpad E570 </h1> <img align="left" src="https://github.com/yusfklncc/HP-EliteBook-840-G5-Hackintosh/blob/main/Apple.png" width="30px" 
 
 <img align="right" src="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/ThinkPad%20E570.png" width="500px" alt="preview">
 
