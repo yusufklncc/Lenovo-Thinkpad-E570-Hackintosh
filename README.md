@@ -1,6 +1,9 @@
 <h1 align="center"> macOS on Lenovo Thinkpad E570 </h1>
 
-<img align="center" src="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/ThinkPad%20E570.png" width="500px" alt="preview">
+<p align="center">
+<a href="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/">
+  <img src="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/ThinkPad%20E570.png" alt="Thinkpad E570" width="400">
+</p>
 
 OpenCore config for Hackintosh OpenCore Lenovo Thinkpad E570.
 
