@@ -1,11 +1,9 @@
 <h1 align="center"> macOS on Lenovo Thinkpad E570 </h1>
 
 <p align="center">
-<a href="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/">
   <img src="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/ThinkPad%20E570.png" alt="Thinkpad E570" width="400">
 </p>
 
-  
 OpenCore config for Hackintosh OpenCore Lenovo Thinkpad E570.
 
 [![macOS](https://img.shields.io/badge/macOS-12.0.1-orange)](https://www.apple.com/tr/macos/big-sur/)
