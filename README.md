@@ -19,7 +19,9 @@
 <details>
 <summary>Monterey</summary>
 
-![](https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Monterey.png)
+<p align="center">
+  <img src="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Monterey.png">
+</p>
 
 </details>
 <details>
