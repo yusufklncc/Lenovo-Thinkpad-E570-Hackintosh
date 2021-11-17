@@ -18,11 +18,9 @@
 ## Screenshots
 <details>
 <summary>Monterey</summary>
-
 <p align="center">
   <img src="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Monterey.png">
 </p>
-
 </details>
 <details>
 <summary>Big Sur</summary>
