@@ -68,6 +68,10 @@ OpenCore config for Hackintosh OpenCore Lenovo Thinkpad E570.
 - [x] macOS Monterey 12.0.1
 - [x] macOS Big Sur 11.6.1
 - [x] macOS Big Sur 11.0.1
+- [x] macOS Catalina 10.15.7
+- [x] macOS Mojave 10.14.6
+- [x] macOS High Sierra 10.13.6
+- [x] macOS Sierra 10.12.6
 
 # What's Working?
 |                                 |                                    |
