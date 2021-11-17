@@ -16,47 +16,44 @@
 </p>
 
 ## Screenshots
+
 <details>
 <summary>Monterey</summary>
 <p align="center">
   <img src="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Monterey.png">
 </p>
 </details>
+
 <details>
 <summary>Big Sur</summary>
-
 <p align="center">
   <img src="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Big%20Sur.png">
 </p>
-
 </details>
+
 <details>
 <summary>Catalina</summary>
-
 <p align="center">
   <img src="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Catalina.png">
 </p>
-
 </details>
+
 <details>
 <summary>Mojave</summary>
-
 <p align="center">
   <img src="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Mojave.png">
 </p>
-
 </details>
+
 <details>
 <summary>High Sierra</summary>
-
 <p align="center">
   <img src="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/High%20Sierra.png">
 </p>
-
 </details>
+
 <details>
 <summary>Sierra</summary>
-
 <p align="center">
   <img src="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Sierra.png">
 </p>
