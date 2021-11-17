@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# <img align="left" src="https://github.com/yusfklncc/HP-EliteBook-840-G5-Hackintosh/blob/main/Apple.png" width="30px" alt="preview">macOS on Lenovo Thinkpad E570
+# <img align="center" src="https://github.com/yusfklncc/HP-EliteBook-840-G5-Hackintosh/blob/main/Apple.png" width="30px" alt="preview">macOS on Lenovo Thinkpad E570
 
 <img align="center" src="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/ThinkPad%20E570.png" width="500px" alt="preview">
 
