@@ -15,7 +15,7 @@
   <img src="https://img.shields.io/badge/release-EFI-blue.svg"/> </a>
 </p>
 
-## Screenshot
+## Screenshots
 <details>
 <summary>Monterey</summary>
 
