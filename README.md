@@ -27,32 +27,41 @@
 <details>
 <summary>Big Sur</summary>
 
-![](https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Big%20Sur.png)
+<p align="center">
+  <img src="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Big%20Sur.png">
+</p>
 
 </details>
 <details>
 <summary>Catalina</summary>
 
-![](https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Catalina.png)
+<p align="center">
+  <img src="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Catalina.png">
+</p>
 
 </details>
 <details>
 <summary>Mojave</summary>
 
-![](https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Mojave.png)
+<p align="center">
+  <img src="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Mojave.png">
+</p>
 
 </details>
 <details>
 <summary>High Sierra</summary>
 
-![](https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/High%20Sierra.png)
+<p align="center">
+  <img src="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/High%20Sierra.png">
+</p>
 
 </details>
 <details>
 <summary>Sierra</summary>
 
-![](https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Sierra.png)
-
+<p align="center">
+  <img src="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Sierra.png">
+</p>
 </details>
 
 <!-- omit in toc -->
