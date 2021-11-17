@@ -4,7 +4,7 @@
   <img src="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/ThinkPad%20E570.png" alt="Thinkpad E570" width="500">
 </p>
 
-<h3 align="center"> OpenCore config for Hackintosh OpenCore Lenovo Thinkpad E570 </h3>
+<h4 align="center"> OpenCore config for Hackintosh OpenCore Lenovo Thinkpad E570 </h4>
 
 <p align="center">
 <a href="https://www.apple.com/macos/monterey/">
