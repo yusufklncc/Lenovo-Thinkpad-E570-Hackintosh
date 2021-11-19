@@ -79,7 +79,7 @@
 - ✅ macOS Catalina 10.15.7
 - ✅ macOS Mojave 10.14.6
 - ✅ macOS High Sierra 10.13.6
-- [x] macOS Sierra 10.12.6
+- ✅ macOS Sierra 10.12.6
 
 # What's Working?
 |                                 |                                    |
