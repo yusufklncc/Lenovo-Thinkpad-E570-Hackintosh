@@ -15,7 +15,7 @@
   <img src="https://img.shields.io/badge/release-EFI-blue.svg"/> </a>
 </p>
 
-## Screenshots
+# Screenshots
 
 <details>
 <summary>Monterey</summary>
@@ -59,8 +59,7 @@
 </p>
 </details>
 
-<!-- omit in toc -->
-## Hardware
+# Hardware
 
 | **LENOVO** | Detail                                                  |
 | ------------------- | ------------------------------------------- |
