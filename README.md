@@ -4,14 +4,14 @@
   <img src="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/ThinkPad%20E570.png" alt="Thinkpad E570" width="500">
 </p>
 
-<h4 align="center"> OpenCore config for Hackintosh OpenCore Lenovo Thinkpad E570 </h4>
+<h4 align="center"> OpenCore config for Hackintosh Lenovo Thinkpad E570 </h4>
 
 <p align="center">
 <a href="https://www.apple.com/macos/monterey/">
-  <img src="https://img.shields.io/badge/macOS-Monterey_v12.0.1-orange"/> </a>
+  <img src="https://img.shields.io/badge/macOS-Monterey_v11.6.3-blue"/> </a>
 <a href="https://github.com/acidanthera/OpenCorePkg">
   <img src="https://img.shields.io/badge/OpenCore-0.7.5-9cf"/> </a>
-<a href="https://github.com/relaxewdy/Thinkpad-E570-Hackintosh-OpenCore/releases">
+<a href="https://github.com/yusfklncc/Thinkpad-E570-Hackintosh-OpenCore/releases">
   <img src="https://img.shields.io/badge/release-EFI-blue.svg"/> </a>
 </p>
 
