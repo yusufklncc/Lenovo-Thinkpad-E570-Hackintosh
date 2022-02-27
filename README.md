@@ -1,7 +1,7 @@
 <h1 align="center"> macOS on Lenovo Thinkpad E570 </h1>
 
 <p align="center">
-  <img src="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/ThinkPad%20E570.png" alt="Thinkpad E570" width="500">
+  <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/ThinkPad%20E570.png" alt="Thinkpad E570" width="500">
 </p>
 
 <h4 align="center"> OpenCore config for Hackintosh Lenovo Thinkpad E570 </h4>
@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/badge/macOS-Monterey_v11.6.3-blue"/> </a>
 <a href="https://github.com/acidanthera/OpenCorePkg">
   <img src="https://img.shields.io/badge/OpenCore-0.7.5-9cf"/> </a>
-<a href="https://github.com/yusfklncc/Thinkpad-E570-Hackintosh-OpenCore/releases">
+<a href="https://github.com/yusufklncc/Thinkpad-E570-Hackintosh-OpenCore/releases">
   <img src="https://img.shields.io/badge/release-EFI-blue.svg"/> </a>
 </p>
 
@@ -20,42 +20,42 @@
 <details>
 <summary>Monterey</summary>
 <p align="center">
-  <img src="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Monterey.png">
+  <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Monterey.png">
 </p>
 </details>
 
 <details>
 <summary>Big Sur</summary>
 <p align="center">
-  <img src="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Big%20Sur.png">
+  <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Big%20Sur.png">
 </p>
 </details>
 
 <details>
 <summary>Catalina</summary>
 <p align="center">
-  <img src="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Catalina.png">
+  <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Catalina.png">
 </p>
 </details>
 
 <details>
 <summary>Mojave</summary>
 <p align="center">
-  <img src="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Mojave.png">
+  <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Mojave.png">
 </p>
 </details>
 
 <details>
 <summary>High Sierra</summary>
 <p align="center">
-  <img src="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/High%20Sierra.png">
+  <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/High%20Sierra.png">
 </p>
 </details>
 
 <details>
 <summary>Sierra</summary>
 <p align="center">
-  <img src="https://github.com/yusfklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Sierra.png">
+  <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Sierra.png">
 </p>
 </details>
 
@@ -112,5 +112,5 @@
 
 <h1 align="center"> Donate - Bağış </h1>
 <p align="center">
-<a href="https://github.com/yusfklncc/yusfklncc/blob/main/Donate%20-%20Ba%C4%9F%C4%B1%C5%9F.md">
-  <img src="https://github.com/yusfklncc/yusfklncc/blob/main/Resources/Donate.png" width="300">
+<a href="https://github.com/yusufklncc/yusfklncc/blob/main/Donate%20-%20Ba%C4%9F%C4%B1%C5%9F.md">
+  <img src="https://github.com/yusufklncc/yusfklncc/blob/main/Resources/Donate.png" width="300">
