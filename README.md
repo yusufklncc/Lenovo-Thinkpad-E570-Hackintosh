@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/badge/macOS-Monterey_v11.6.3-blue"/> </a>
 <a href="https://github.com/acidanthera/OpenCorePkg">
   <img src="https://img.shields.io/badge/OpenCore-0.7.5-9cf"/> </a>
-<a href="https://github.com/yusufklncc/Thinkpad-E570-Hackintosh-OpenCore/releases">
+<a href="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh-OpenCore/releases">
   <img src="https://img.shields.io/badge/release-EFI-blue.svg"/> </a>
 </p>
 
