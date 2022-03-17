@@ -22,7 +22,7 @@
 <a href="https://www.paypal.com/paypalme/sevenpay">
   <img src="https://img.shields.io/badge/-@sevenpay-2CA5E0?style=flat-square&logo=PayPal&logoColor=red"/> </a>
 
-# Screenshots
+# Screenshots 📷
 
 <details>
 <summary>Monterey</summary>
@@ -66,7 +66,7 @@
 </p>
 </details>
 
-# Original Hardware 💻
+# Original Hardware  💻
 
 Type | Spec | Status
 :---------|:---------|:----------
@@ -78,7 +78,7 @@ Wi-Fi             | Qualcomm Atheros QCA9377 | Not Working
 Ethernet          | Realtek RTL8111 | Working
 Audio       | Conexant CX20753/4 | Working
   
-# Modifications 🔨
+# Modifications  🔨
 
 Type | Spec | Status
 :---------|:---------|:----------
