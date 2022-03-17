@@ -163,6 +163,14 @@ SSDT | Info
 - If you install Big Sur-, you can delete BlueToolFixup.kext in OC/Kexts.
 
 - With OpenCore Configrator you should definitely set your SMBIOS settings because the config does not contain SMBIOS information MacBook Pro 14.1
+  
+## Credits
+ - [Dortania](https://dortania.github.io) for developing OpenCore.
+ - [Apple](https://www.apple.com) for macOS.
+ - [Acidanthera](https://github.com/acidanthera) for most of the kexts.
+ - [RehabMan](https://github.com/RehabMan) for battery patches.
+ - [Sniki](https://github.com/Sniki) for USB kext.
+ - And anyone else that helped to develop and improve hackintoshing.
 
 <h1 align="center"> Donate - Bağış </h1>
 <p align="center">
