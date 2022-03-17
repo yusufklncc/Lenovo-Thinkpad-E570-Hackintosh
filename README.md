@@ -70,19 +70,19 @@
 
 | **LENOVO** | Detail |
 | ------------------- | ------------------------------------------- |
-| Model Name      | Lenovo Thinkpad E570      |
-| CPU              | Intel(R) Core(TM) i5-7200U CPU @ 2.40GHz Kaby Lake             | Working |
-| RAM           | 8 GB 2400 MHz DDR4    | Working |
-| Internal Graphics Card | Intel(R) HD Graphics 620 (1 GB)                     | Working |
+| Model Name      | Lenovo Thinkpad E570 |
+| CPU              | Intel(R) Core(TM) i5-7200U CPU @ 2.40GHz Kaby Lake | Working |
+| RAM           | 8 GB 2400 MHz DDR4 | Working |
+| Internal Graphics Card | Intel(R) HD Graphics 620 (1 GB) | Working |
 | Wi-Fi             | Qualcomm Atheros QCA9377 | Not Working |
-| Ethernet          | Realtek RTL8111            | Working |
-| Audio       | Conexant CX20753/4                       | Working |
+| Ethernet          | Realtek RTL8111 | Working |
+| Audio       | Conexant CX20753/4 | Working |
   
 # Modifications 🔨
 
 | Type | Detail |
 | ------------------- | ---------------------|
-| Wi-Fi             | Dell Wireless 1820A ac |
+| Wi-Fi | Dell Wireless 1820A ac |
 
 ## Kext Used 
  
