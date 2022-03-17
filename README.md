@@ -80,9 +80,9 @@ Audio       | Conexant CX20753/4 | Working
   
 # Modifications 🔨
 
-| Type | Detail |
-| ------------------- | ---------------------|
-| Wi-Fi | Dell Wireless 1820A ac |
+Type | Spec | Status
+:---------|:---------|:----------
+| Wi-Fi | Dell Wireless 1820A ac | Working
 
 ## Kext Used 
  
