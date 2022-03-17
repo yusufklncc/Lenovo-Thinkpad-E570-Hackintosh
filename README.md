@@ -17,6 +17,8 @@
 <p align="center">
 <a href="https://t.me/yusufklncc">
   <img src="https://img.shields.io/badge/-@yusufklncc-2CA5E0?style=flat-square&logo=Telegram&logoColor=fff"/> </a>
+<a href="https://www.youtube.com/c/yusufklncc">
+  <img src="https://img.shields.io/badge/-@yusufklncc-lightgrey?style=flat-square&logo=YouTube&logoColor=red"/> </a>
 
 # Screenshots
 
