@@ -155,6 +155,7 @@ SSDT | Info
 # What You Have to Do?
 |                                 |                                    |
 | -----------------------------------  | -------- |
+|  Micro SD Card Reader | Not working in OpenCore |
 |  SMBIOS Settings  | ⚠️ |
 |  Rename config    | ⚠️ |
 
