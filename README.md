@@ -77,6 +77,8 @@
 | Audio       | Conexant CX20753/4                       |
 
 # Update History
+- ✅ macOS Monterey 12.3
+- ✅ macOS Monterey 12.2.1  
 - ✅ macOS Monterey 12.0.1
 - ✅ macOS Big Sur 11.6.1
 - ✅ macOS Big Sur 11.0.1
