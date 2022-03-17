@@ -79,6 +79,7 @@
 | Audio       | Conexant CX20753/4                       |
   
 # Modifications 🔨
+  
 | ------------------- | ------------------------------------------- |
 | Wi-Fi             | Dell Wireless 1820A ac |
 
