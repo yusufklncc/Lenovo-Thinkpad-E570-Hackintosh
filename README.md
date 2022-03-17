@@ -68,7 +68,7 @@
 
 # Original Hardware 💻
 
-| **LENOVO** | Detail                                                  |
+| **LENOVO** | Detail |
 | ------------------- | ------------------------------------------- |
 | Model Name      | Lenovo Thinkpad E570      |
 | CPU              | Intel(R) Core(TM) i5-7200U CPU @ 2.40GHz Kaby Lake             | Working |
