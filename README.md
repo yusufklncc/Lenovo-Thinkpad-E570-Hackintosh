@@ -20,7 +20,7 @@
 <a href="https://www.youtube.com/c/yusufklncc">
   <img src="https://img.shields.io/badge/-@yusufklncc-lightgrey?style=flat-square&logo=YouTube&logoColor=red"/> </a>
 <a href="https://www.paypal.com/paypalme/sevenpay">
-  <img src="https://img.shields.io/badge/paypal-donate-red.svg"/> </a>
+  <img src="https://img.shields.io/badge/-@sevenpay-lightgrey?style=flat-square&logo=PayPal&logoColor=red"/> </a>
 
 # Screenshots
 
