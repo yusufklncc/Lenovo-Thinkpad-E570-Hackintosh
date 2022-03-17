@@ -111,8 +111,8 @@ Kext | Info
   
 ## SSDT Used
   
-SSDT | Info | Refrence Link 
-:---------|:--------- |:---------
+SSDT | Info
+:---------|:---------
 [SSDT-BATT.aml](https://dortania.github.io/OpenCore-Post-Install/laptop-specific/battery.html#battery-status) | Battery: Status patch.
 [SSDT-FIXSHUTDOWN.aml](https://dortania.github.io/OpenCore-Post-Install/usb/misc/shutdown.html#fixing-shutdown-restart) | Fixing Shutdows/Restart. Due to a missing S5 call that powers down the controller.
 [SSDT-EC-USBX.aml](https://dortania.github.io/Getting-Started-With-ACPI/Universal/ec-fix.html#fixing-embedded-controller-ssdt-ecusbx) | Adds a fake Embedded Controller (SSDT-EC) and enables USB Power Management (SSDT-EC-USBX).
