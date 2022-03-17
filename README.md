@@ -69,7 +69,7 @@
 # Original Hardware 💻
 
 | **LENOVO** | Detail |
-| ------------------- |  |
+| - | - |
 | Model Name      | Lenovo Thinkpad E570 | Working |
 | CPU              | Intel(R) Core(TM) i5-7200U CPU @ 2.40GHz Kaby Lake | Working |
 | RAM           | 8 GB 2400 MHz DDR4 | Working |
