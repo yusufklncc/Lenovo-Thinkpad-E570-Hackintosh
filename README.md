@@ -70,13 +70,14 @@
 
 Type | Spec | Status
 :---------|:---------|:----------
-Model Name      | Lenovo Thinkpad E570 | Working
-CPU              | Intel(R) Core(TM) i5-7200U CPU @ 2.40GHz Kaby Lake | Working
-RAM           | 8 GB 2400 MHz DDR4 | Working
-Internal Graphics Card | Intel(R) HD Graphics 620 (1 GB) | Working
-Wi-Fi             | Qualcomm Atheros QCA9377 | Not Working
-Ethernet          | Realtek RTL8111 | Working
-Audio       | Conexant CX20753/4 | Working
+Model Name      | Lenovo Thinkpad E570 | ✅
+CPU              | Intel(R) Core(TM) i5-7200U CPU @ 2.40GHz Kaby Lake | ✅
+RAM           | 8 GB 2400 MHz DDR4 | ✅
+Internal Graphics Card | Intel(R) HD Graphics 620 (1 GB) | ✅
+Wi-Fi             | Qualcomm Atheros QCA9377 | ❌
+Ethernet          | Realtek RTL8111 | ✅
+Audio       | Conexant CX20753/4 | ✅
+SD Card Reader | O2 Micro SD/MMC | ❌
   
 # Modifications  🔨
 
