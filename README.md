@@ -133,36 +133,31 @@ SSDT | Info
 - ✅ macOS High Sierra 10.13.6
 - ✅ macOS Sierra 10.12.6
 
-# What's Working?
-|                                 |                                    |
-| -----------------------------------  | -------- |
-|  Turbo boost and CPU frequency stage |  ✅  |
-|  Intel HD Graphics 620              |  ✅  |
-|  Brightness control                  |  ✅  |
-|  HDMI                                |  ✅  |
-|  Audio Conexant CX20753/4            |  ✅  |
-|  Realtek Ethernet RTL8111            |  ✅  | 
-|  DW1820A Wi-Fi and Bluetooth, Airdrop, Handoff, SideCar, iMessage...         |  ✅  |
-|  USB 3.0 and Type-C (with Port Map)        |  ✅  |
-|  Touchpad (14 gestures are working)   |  ✅  |
-|  Battery status   |  ✅  |
-|  Camera   |  ✅  |
-|  S3 Sleep / Wake   |  ✅  |
-|  S4 Hibernation / Wake   |  ✅  |
-|  Shutdown / Reboot   |  ✅  |
-|  Fn shortcut keys   |  ✅  |
+# What's working  💻
+Type | Info | Status
+:---------|:---------|:----------
+Turbo boost and CPU frequency stage |  ✅  
+Intel HD Graphics 620              |  ✅  
+Brightness control                  |  ✅  
+HDMI                                |  ✅  
+Audio Conexant CX20753/4            |  ✅  
+Realtek Ethernet RTL8111            |  ✅  
+DW1820A Wi-Fi and Bluetooth, Airdrop, Handoff, SideCar, iMessage...         |  ✅  
+USB 3.0 and Type-C (with Port Map)        |  ✅  
+Touchpad (14 gestures are working)   |  ✅  
+Battery status   |  ✅  
+Camera   |  ✅  
+S3 Sleep / Wake   |  ✅  
+S4 Hibernation / Wake   |  ✅  
+Shutdown / Reboot   |  ✅  
+Fn shortcut keys   |  ✅  
  
-# What You Have to Do?
-|                                 |                                    |
-| -----------------------------------  | -------- |
-|  Micro SD Card Reader | Not working in OpenCore |
-|  SMBIOS Settings  | ⚠️ |
-|  Rename config    | ⚠️ |
-
-- If you install Monterey+, you can delete BrcmBluetoothInjector.kext in OC/Kexts. 
-- If you install Big Sur-, you can delete BlueToolFixup.kext in OC/Kexts.
-
-- With OpenCore Configrator you should definitely set your SMBIOS settings because the config does not contain SMBIOS information MacBook Pro 14.1
+# What's you have to do  💻
+Type | Info | Status
+:---------|:---------|:----------
+Micro SD Card Reader | Not working in OpenCore. You have to patch DSDT or use CLOVER | ⚠️ 
+SMBIOS Settings  | With OpenCore Configurator you should definitely set your SMBIOS settings and ROM value because the config does not contain SMBIOS information MacBook Pro 14.1. ROM value is your ethernet MAC address. Be sure your ethernet is en0 in Hackintool. |  ⚠️
+Rename config    | If you install Monterey+, you can delete BrcmBluetoothInjector.kext in OC/Kexts. If you install Big Sur-, you can delete BlueToolFixup.kext in OC/Kexts. | ⚠️ 
   
 ## Credits
  - [Dortania](https://dortania.github.io) for developing OpenCore.
