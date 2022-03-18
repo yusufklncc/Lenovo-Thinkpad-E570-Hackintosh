@@ -8,7 +8,7 @@
 
 <p align="center">
 <a href="https://www.apple.com/macos/monterey/">
-  <img src="https://img.shields.io/badge/macOS-Monterey_v12.3-blue?style=flat-square" width="200"/> </a>
+  <img src="https://img.shields.io/badge/macOS-Monterey_v12.3-blue" width="200"/> </a>
 <a href="https://github.com/acidanthera/OpenCorePkg/releases">
   <img src="https://img.shields.io/badge/OpenCore-0.7.9-9cf" width="150"/> </a>
 <a href="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/releases">
@@ -16,7 +16,7 @@
 </p>
 <p align="center">
 <a href="https://t.me/yusufklncc">
-  <img src="https://img.shields.io/badge/-@yusufklncc-2CA5E0?style=flat-square&logo=Telegram&logoColor=blue" width="150"/> </a>
+  <img src="https://img.shields.io/badge/-@yusufklncc-2CA5E0?logo=Telegram&logoColor=blue" width="150"/> </a>
 <a href="https://www.youtube.com/c/yusufklncc">
   <img src="https://img.shields.io/badge/-@yusufklncc-lightgrey?style=flat-square&logo=YouTube&logoColor=red" width="150"/> </a>
 <a href="https://www.paypal.com/paypalme/sevenpay">
