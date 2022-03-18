@@ -83,7 +83,7 @@ SD Card Reader | O2 Micro SD/MMC | ❌
 
 Type | Spec | Status
 :---------|:---------|:----------
-| Wi-Fi | Dell Wireless 1820A ac | Working
+| Wi-Fi | Dell Wireless 1820A ac | ✅
 
 ## Kext Used 
  
@@ -135,8 +135,8 @@ SSDT | Info
 - ✅ macOS Sierra 10.12.6
 
 # What's working  💻
-Type | Info | Status
-:---------|:---------|:----------
+Type | Status
+:---------|:---------
 Turbo boost and CPU frequency stage |  ✅  
 Intel HD Graphics 620              |  ✅  
 Brightness control                  |  ✅  
