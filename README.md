@@ -113,8 +113,8 @@ Kext | Info
 ## SSDT Used
   
 SSDT | Info
-:---------|:---------
-[SSDT-AC.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/AC_Adapter_(SSDT-AC)) | [Cosmetic] Attaches an AC Adapter Device existing in a Laptop's DSDT to the AppleACPIACAdapter service in the IORegistry of macOS.
+:---------|:---------|:---------
+[SSDT-AC.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/AC_Adapter_(SSDT-AC)) | Attaches an AC Adapter Device existing in a Laptop's DSDT to the AppleACPIACAdapter service in the IORegistry of macOS. | [Cosmetic]
 [SSDT-BATT.aml](https://dortania.github.io/OpenCore-Post-Install/laptop-specific/battery.html#battery-status) | [Functional] Fixes the battery status indicator.
 [SSDT-CLICKPAD.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/05_Laptop-specific_Patches/Trackpad_Patches/ThinkPad_Click_and_TrackPad_Patches) | [Functional] Fixes Touchpad Buttons but some error. Customize Touchpad Settings.
 [SSDT-DMAC.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/DMA_Controller_(SSDT-DMAC)) | [Cosmetic] Adds Direct Memory Access Controller (DMAC) device to IORegistry.
@@ -128,7 +128,7 @@ SSDT | Info
 [SSDT-PLUG.aml](https://dortania.github.io/Getting-Started-With-ACPI/Universal/plug.html#fixing-power-management-ssdt-plug) | [Functional] Allow the kernel's XCPM(XNU's CPU Power Management) to manage CPU's power management.
 [SSDT-PMC.aml](https://github.com/corpnewt/SSDTTime) | [Functional] It specifically brings back NVRAM support and requires very little configuration for the end user.
 [SSDT-PNLF.aml](https://dortania.github.io/Getting-Started-With-ACPI/Laptops/backlight.html) | [Functional] Adds Backlight Control for Laptop Screens.
-[SSDT-PTSWAK.aml[(https://github.com/5T33Z0/OC-Little-Translated/tree/main/04_Fixing_Sleep_and_Wake_Issues/PTSWAK_Sleep_and_Wake_Fix) | [Functional] Comprehensive Sleep and Wake Patch.
+[SSDT-PTSWAK.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/04_Fixing_Sleep_and_Wake_Issues/PTSWAK_Sleep_and_Wake_Fix) | [Functional] Comprehensive Sleep and Wake Patch.
 [SSDT-PWRB-SLPB_STA0B.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/Power_and_Sleep_Button_(SSDT-PWRB:SSDT-SLPB)) | [Functional] Enabling Power and Sleep Buttons.
 [SSDT-RTC_STA0F.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/System_Clock_(SSDT-RTC0)) | [Functional] Force-enable the RTC Device.
 [SSDT-SBUS-MCHC.aml](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus.html) | [Functional] Fixes System Management Bus and Memory Controller in macOS.
