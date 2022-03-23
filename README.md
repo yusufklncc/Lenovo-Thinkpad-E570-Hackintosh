@@ -179,7 +179,7 @@ SSDT | Info | Status
 - 2022-03-23 18:35
   - Added
     - Kexts
-      -BrightnessKeys: Brightness control on keyboard.
+      - BrightnessKeys: Brightness control on keyboard.
         - ACPI Patch
           - Rename (NBCF, 0x00) to Name (NBCF, 0x01)
   - Disabled
