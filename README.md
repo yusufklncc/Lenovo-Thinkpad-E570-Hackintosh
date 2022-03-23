@@ -78,6 +78,7 @@ Wi-Fi             | Qualcomm Atheros QCA9377 | ❌
 Ethernet          | Realtek RTL8111 | ✅
 Audio       | Conexant CX20753/4 | ✅
 SD Card Reader | O2 Micro SD/MMC | ❌
+Fingerprint | Unknown | ❌
   
 # Modifications  🔨
 
@@ -144,6 +145,16 @@ SSDT | Info | Status
 - ✅ macOS High Sierra 10.13.6
 - ✅ macOS Sierra 10.12.6
 
+# Changelog
+- 2022-03-23 15:15
+  - 
+  
+  
+# Advanced Resolution
+- Use RDM for 1600x900 resolution which i am using currently. 
+  - [Download RDM](https://disk.yandex.com.tr/d/D9TtO3QEqAbtww)
+  
+  
 # What's working  💻
 Type | Status
 :---------|:---------
