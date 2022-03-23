@@ -40,7 +40,8 @@
   - [Donate](https://github.com/yusufklncc/yusfklncc/blob/main/Donate%20-%20Bağış.md)
   
 ## Screenshots 📷
-  
+
+### CPU Usage and Temperature  
 - Normal
 
   <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Normal%20CPU%20Frequency%20and%20Temperature.png" width="300">
