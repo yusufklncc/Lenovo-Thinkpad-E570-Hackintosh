@@ -22,7 +22,7 @@
 <a href="https://www.paypal.com/paypalme/sevenpay">
   <img src="https://img.shields.io/badge/-@sevenpay-2CA5E0?logo=PayPal&logoColor=red" width="140"/> </a>
 
-# Screenshots 📷
+## Screenshots 📷
 
 <details>
 <summary>Monterey</summary>
@@ -66,7 +66,7 @@
 </p>
 </details>
 
-# Original Hardware  💻
+## Original Hardware  💻
 
 Type | Spec | Status
 :---------|:---------|:----------
@@ -80,7 +80,7 @@ Audio       | Conexant CX20753/4 | ✅
 SD Card Reader | O2 Micro SD/MMC | ❌
 Fingerprint | Unknown | ❌
   
-# Modifications  🔨
+## Modifications  🔨
 
 Type | Spec | Status
 :---------|:---------|:----------
@@ -134,7 +134,7 @@ SSDT | Info | Status
 [SSDT-SBUS-MCHC.aml](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus.html) | Fixes System Management Bus and Memory Controller in macOS. | [Functional]
 
   
-# Update History
+## Update History
 - ✅ macOS Monterey 12.3
 - ✅ macOS Monterey 12.2.1  
 - ✅ macOS Monterey 12.0.1
@@ -145,17 +145,17 @@ SSDT | Info | Status
 - ✅ macOS High Sierra 10.13.6
 - ✅ macOS Sierra 10.12.6
 
-# Changelog
+## Changelog
 - 2022-03-23 15:15
   - 
   
   
-# Advanced Resolution
+## Advanced Resolution
 - Use RDM for 1600x900 resolution which i am using currently. 
   - [Download RDM](https://disk.yandex.com.tr/d/D9TtO3QEqAbtww)
   
   
-# What's working  💻
+## What's working  💻
 Type | Status
 :---------|:---------
 Turbo boost and CPU frequency stage |  ✅  
@@ -174,7 +174,7 @@ S4 Hibernation / Wake   |  ✅
 Shutdown / Reboot   |  ✅  
 Fn shortcut keys   |  ✅  
  
-# What's you have to do  💻
+## What's you have to do  💻
 Type | Info | Status
 :---------|:---------|:----------
 Micro SD Card Reader | Not working in OpenCore. You have to patch DSDT or use CLOVER | ⚠️ 
