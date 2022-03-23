@@ -77,7 +77,7 @@ Internal Graphics Card | Intel(R) HD Graphics 620 (1 GB) | ✅
 Wi-Fi             | Qualcomm Atheros QCA9377 | ❌
 Ethernet          | Realtek RTL8111 | ✅
 Audio       | Conexant CX20753/4 | ✅
-SD Card Reader | O2 Micro SD/MMC | ❌
+SD Card Reader | O2 Micro SD/MMC | ⚠️
 Fingerprint | Unknown | ❌
   
 ## Modifications  🔨
@@ -180,19 +180,21 @@ SSDT | Info | Status
 - 2022-03-23 15:15
   - 
   
+# How to make it better?
   
 ## Advanced Resolution
   
 - Use RDM for 1600x900 resolution which i am using currently. 
   - [Download RDM](https://disk.yandex.com.tr/d/D9TtO3QEqAbtww)
   
+## Thinkpad's Click and Trackpad
+  
+- [Guide](https://github.com/5T33Z0/OC-Little-Translated/tree/main/05_Laptop-specific_Patches/Trackpad_Patches/ThinkPad_Click_and_TrackPad_Patches) | Some issues for me. You can try.
+  
 ## DW1820A Windows 10&11 Driver
   
   - [Download](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/raw/main/DW1820A%20Wi-Fi%20%26%20Bluetooth%20for%20Windows.zip)
-  
-## Thinkpad's Click and Trackpad
-  
-- [Guide](https://github.com/5T33Z0/OC-Little-Translated/tree/main/05_Laptop-specific_Patches/Trackpad_Patches/ThinkPad_Click_and_TrackPad_Patches)
+    
   
 ## Credits
   
