@@ -189,15 +189,20 @@ SSDT | Info | Status
 
 </details>  
   
-## Thinkpad's Click and Trackpad
-  
+<details>  
+  <summary> <h2>Thinkpad's Click and Trackpad</h2> </summary>
+
 - [Guide](https://github.com/5T33Z0/OC-Little-Translated/tree/main/05_Laptop-specific_Patches/Trackpad_Patches/ThinkPad_Click_and_TrackPad_Patches) | Some issues for me. You can try.
+
+</details>  
   
-## DW1820A Windows 10&11 Driver
-  
-  - [Download](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/raw/main/DW1820A%20Wi-Fi%20%26%20Bluetooth%20for%20Windows.zip)
-    
-  
+<details>  
+  <summary> <h2>DW1820A Windows 10&11 Driver</h2> </summary>
+
+- [Download](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/raw/main/DW1820A%20Wi-Fi%20%26%20Bluetooth%20for%20Windows.zip)
+
+</details> 
+      
 ## Credits
   
  - [Dortania](https://dortania.github.io) for developing OpenCore.
