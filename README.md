@@ -27,7 +27,7 @@
 <details>
 <summary>Monterey</summary>
 <p align="center">
-  <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/Monterey.png">
+  <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/macOS%20Monterey.png">
 </p>
 </details>
 
