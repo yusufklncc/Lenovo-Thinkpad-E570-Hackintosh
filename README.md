@@ -182,10 +182,11 @@ SSDT | Info | Status
   
 # How to make it better?
   
-## Advanced Resolution
+  <summary>Advanced Resolution</summary>
   
 - Use RDM for 1600x900 resolution which i am using currently. 
   - [Download RDM](https://disk.yandex.com.tr/d/D9TtO3QEqAbtww)
+
   
 ## Thinkpad's Click and Trackpad
   
