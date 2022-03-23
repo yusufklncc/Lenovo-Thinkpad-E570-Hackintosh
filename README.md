@@ -40,9 +40,6 @@
   - [Donate](https://github.com/yusufklncc/yusfklncc/blob/main/Donate%20-%20Bağış.md)
   
 ## Screenshots 📷
-
-<details>
-<summary>CPU</summary>
   
 - Normal
 
@@ -53,7 +50,6 @@
 
   <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Max%20CPU%20Frequency%20and%20Temperature.png" width="400">
   <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Max%20CPU%20Usage.png" width="500">
-</details>  
 
 <details>
 <summary>Monterey</summary>
