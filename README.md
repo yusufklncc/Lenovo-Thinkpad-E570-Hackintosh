@@ -135,6 +135,7 @@ SSDT | Info | Status
 
   
 ## Update History
+  
 - ✅ macOS Monterey 12.3
 - ✅ macOS Monterey 12.2.1  
 - ✅ macOS Monterey 12.0.1
@@ -146,16 +147,22 @@ SSDT | Info | Status
 - ✅ macOS Sierra 10.12.6
 
 ## Changelog
+  
 - 2022-03-23 15:15
   - 
   
   
 ## Advanced Resolution
+  
 - Use RDM for 1600x900 resolution which i am using currently. 
   - [Download RDM](https://disk.yandex.com.tr/d/D9TtO3QEqAbtww)
   
+## DW1820A Windows 10&11 Driver
+  
+  - [Download](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/raw/main/DW1820A%20Wi-Fi%20%26%20Bluetooth%20for%20Windows.zip)
   
 ## What's working  💻
+  
 Type | Status
 :---------|:---------
 Turbo boost and CPU frequency stage |  ✅  
@@ -175,6 +182,7 @@ Shutdown / Reboot   |  ✅
 Fn shortcut keys   |  ✅  
  
 ## What's you have to do  💻
+  
 Type | Info | Status
 :---------|:---------|:----------
 Micro SD Card Reader | Not working in OpenCore. You have to patch DSDT or use CLOVER | ⚠️ 
@@ -182,6 +190,7 @@ SMBIOS Settings  | With OpenCore Configurator you should definitely set your SMB
 Rename config    | If you install Monterey+, you can delete BrcmBluetoothInjector.kext in OC/Kexts. If you install Big Sur-, you can delete BlueToolFixup.kext in OC/Kexts. | ⚠️ 
   
 ## Credits
+  
  - [Dortania](https://dortania.github.io) for developing OpenCore.
  - [Apple](https://www.apple.com) for macOS.
  - [Acidanthera](https://github.com/acidanthera) for most of the kexts.
