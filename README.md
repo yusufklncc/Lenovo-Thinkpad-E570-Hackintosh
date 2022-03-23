@@ -178,7 +178,44 @@ SSDT | Info | Status
 ## Changelog
   
 - 2022-03-23 15:15
-  - 
+  - Added
+    - ACPI
+      - SSDT-AC for AC adapter in IORegistryExplorer.
+      - SSDT-CLICKPAD for better touchpad.
+      - SSDT-DMAC for DMAC device in IORegistryExplorer.
+      - SSDT-EXT5-TP-LED for fix led on power button.
+      - SSDT-FWHD for FWHD device in IORegistryExplorer.
+      - SSDT-KBD for brightness control from keys.
+        - ACPI Patch
+          - Rename PNLF to XNLF
+          - Rename _Q14 to XQ14 (TP-up)
+          - Rename _Q15 to XQ15 (TP-down)
+      - SSDT-PMC 
+      - SSDT-PTSWAK for better sleep and wake.
+        - ACPI Patch
+          - Name0D-03 to 00
+          - Name0D-04 to 00
+          - Name6D-03 to 00
+          - Name6D-04 to 00
+          - Rename _PTS to ZPTS(1,N)
+          - Rename _WAK to ZWAK(1,N)
+      - SSDT-PWRB-SLPB_STA0B for power and sleep button.
+      - SSDT-RTC_STA0F for enable RTC device.
+    - Kexts
+      - ACPIBatteryManager: For AppleSmartBatteryManager on IORegistryExplorer.
+  - Changed
+    - ACPI
+      - SSDT-XOSI to SSDT-OC-XOSI
+        - ACPI Patch
+          - Rename _OSI to XOSI (OS)
+    - Kexts
+      - FeatureUnlock 1.0.7 to 1.0.6 for fix Airplay to Mac.
+  - Removed
+    - ACPI
+    - Kexts
+      - SMCBatteryManager: Because using ACPIBatteryManager.kext
+      - SMCLightSensor: Because laptop doesn't have a sensor.
+ 
   
 # How to make it better?
 <details>  
