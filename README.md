@@ -195,6 +195,7 @@ SSDT | Info | Status
 ## Changelog
 <details>
 <summary>2022-03-23 18:35</summary>
+
 - <b>Added</b>
   - Kexts
     - BrightnessKeys: Brightness control on keyboard.
@@ -205,10 +206,12 @@ SSDT | Info | Status
     - SSDT-CLICKPAD some compabilty problems.
     - SSDT-KBD
       - Using BrightnessKeys.kext and ACPI patch.
+  
 </details>
 
 <details>
 <summary>2022-03-23 15:15</summary>
+
 - <b>Added</b>
   - ACPI
     - SSDT-AC for AC adapter in IORegistryExplorer.
@@ -246,6 +249,7 @@ SSDT | Info | Status
   - Kexts
     - SMCBatteryManager: Because using ACPIBatteryManager.kext
     - SMCLightSensor: Because laptop doesn't have a sensor.
+  
 </details> 
   
 
