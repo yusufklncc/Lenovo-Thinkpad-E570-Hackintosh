@@ -191,15 +191,13 @@ SSDT | Info | Status
   - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/RDM/1366x768.png" alt="1366x768" width="600"> 
 - 1600x900 
   - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/RDM/1600x900.png" alt="1600x900" width="600">
-
-  <details>    
-  <summary> <b>How to Use?</b> </summary>
-  - Download and open RDM.app. Follow images below.
-    - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/RDM/RDM%201680x1050.png" alt="1680x1050" width="600"> 
-    - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/RDM/RDM%20Edit%20Button.png" alt="RDM Edit Button" width="600"> 
-    - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/RDM/RDM%20Resolution%20Settings.png" alt="RDM Resolution Settings" width="600"> 
-    - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/RDM/RDM%201600x900.png" alt="1600x900" width="600"> 
-  </details>  
+ 
+## How to Use?
+- Download and open RDM.app. Follow images below.
+  - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/RDM/RDM%201680x1050.png" alt="1680x1050" width="600"> 
+  - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/RDM/RDM%20Edit%20Button.png" alt="RDM Edit Button" width="600"> 
+  - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/RDM/RDM%20Resolution%20Settings.png" alt="RDM Resolution Settings" width="600"> 
+  - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/RDM/RDM%201600x900.png" alt="1600x900" width="600">  
 
 </details>  
   
