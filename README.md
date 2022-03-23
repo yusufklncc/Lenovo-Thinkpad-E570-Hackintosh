@@ -231,7 +231,8 @@ SSDT | Info | Status
     - SMCLightSensor: Because laptop doesn't have a sensor.
 </details> 
   
-# How to make it better?
+
+## How to make it better?
 <details>  
   <summary> <h2>Advanced Resolution</h2> </summary>
 
