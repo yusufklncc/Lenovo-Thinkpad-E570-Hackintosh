@@ -255,7 +255,7 @@ SSDT | Info | Status
 
 ## How to make it better?
 <details>  
-  <summary> <h3>Advanced Resolution</h3> </summary>
+  <summary> <h4>Advanced Resolution</h4> </summary>
 
 - Use RDM for 1600x900 resolution which i am using currently. 
   - [Download RDM](https://disk.yandex.com.tr/d/D9TtO3QEqAbtww)
