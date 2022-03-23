@@ -234,7 +234,7 @@ SSDT | Info | Status
 
 ## How to make it better?
 <details>  
-  <summary> <h2>Advanced Resolution</h2> </summary>
+  <summary> <h3>Advanced Resolution</h3> </summary>
 
 - Use RDM for 1600x900 resolution which i am using currently. 
   - [Download RDM](https://disk.yandex.com.tr/d/D9TtO3QEqAbtww)
@@ -261,14 +261,14 @@ SSDT | Info | Status
 </details>  
   
 <details>  
-  <summary> <h2>Thinkpad's Click and Trackpad</h2> </summary>
+  <summary> <h3>Thinkpad's Click and Trackpad</h3> </summary>
 
 - [Guide](https://github.com/5T33Z0/OC-Little-Translated/tree/main/05_Laptop-specific_Patches/Trackpad_Patches/ThinkPad_Click_and_TrackPad_Patches) | Some issues for me. You can try.
 
 </details>  
   
 <details>  
-  <summary> <h2>DW1820A Windows 10&11 Driver</h2> </summary>
+  <summary> <h3>DW1820A Windows 10&11 Driver</h3> </summary>
 
 - [Download](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/raw/main/DW1820A%20Wi-Fi%20%26%20Bluetooth%20for%20Windows.zip)
 
