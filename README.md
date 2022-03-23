@@ -201,7 +201,7 @@ SSDT | Info | Status
     - BrightnessKeys: Brightness control on keyboard.
       - ACPI Patch
         - Rename (NBCF, 0x00) to Name (NBCF, 0x01)
- - <b>Disabled</b>
+- <b>Disabled</b>
   - ACPI
     - SSDT-CLICKPAD some compabilty problems.
     - SSDT-KBD
