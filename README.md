@@ -177,19 +177,19 @@ SSDT | Info | Status
 
 ## Changelog
 - 2022-03-23 18:35
-  - Added
+  - <b>Added</b>
     - Kexts
       - BrightnessKeys: Brightness control on keyboard.
         - ACPI Patch
           - Rename (NBCF, 0x00) to Name (NBCF, 0x01)
-  - Disabled
+  - <b>Disabled</b>
     - ACPI
       - SSDT-CLICKPAD some compabilty problems.
       - SSDT-KBD
         - Using BrightnessKeys.kext and ACPI patch.
 
 - 2022-03-23 15:15
-  - Added
+  - <b>Added</b>
     - ACPI
       - SSDT-AC for AC adapter in IORegistryExplorer.
       - SSDT-CLICKPAD for better touchpad.
@@ -214,14 +214,14 @@ SSDT | Info | Status
       - SSDT-RTC_STA0F for enable RTC device.
     - Kexts
       - ACPIBatteryManager: For AppleSmartBatteryManager on IORegistryExplorer.
-  - Changed
+  - <b>Changed</b>
     - ACPI
       - SSDT-XOSI to SSDT-OC-XOSI
         - ACPI Patch
           - Rename _OSI to XOSI (OS)
     - Kexts
       - FeatureUnlock 1.0.7 to 1.0.6 for fix Airplay to Mac.
-  - Removed
+  - <b>Removed</b>
     - ACPI
     - Kexts
       - SMCBatteryManager: Because using ACPIBatteryManager.kext
