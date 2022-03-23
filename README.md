@@ -191,8 +191,12 @@ SSDT | Info | Status
   - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/RDM/1366x768.png" alt="1366x768" width="600"> 
 - 1600x900 
   - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/RDM/1600x900.png" alt="1600x900" width="600">
-  
+
+  <details>    
   <summary> <h3>How to Use?</h3> </summary>
+  - selam
+    - selam
+  </details>  
 
 </details>  
   
