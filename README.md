@@ -178,57 +178,57 @@ SSDT | Info | Status
 ## Changelog
 <details>
 <summary>2022-03-23 18:35</summary>
-  - <b>Added</b>
-    - Kexts
-      - BrightnessKeys: Brightness control on keyboard.
-        - ACPI Patch
-          - Rename (NBCF, 0x00) to Name (NBCF, 0x01)
-  - <b>Disabled</b>
-    - ACPI
-      - SSDT-CLICKPAD some compabilty problems.
-      - SSDT-KBD
-        - Using BrightnessKeys.kext and ACPI patch.
+- <b>Added</b>
+  - Kexts
+    - BrightnessKeys: Brightness control on keyboard.
+      - ACPI Patch
+        - Rename (NBCF, 0x00) to Name (NBCF, 0x01)
+ - <b>Disabled</b>
+  - ACPI
+    - SSDT-CLICKPAD some compabilty problems.
+    - SSDT-KBD
+      - Using BrightnessKeys.kext and ACPI patch.
 </details>
 
 <details>
 <summary>2022-03-23 15:15</summary>
-  - <b>Added</b>
-    - ACPI
-      - SSDT-AC for AC adapter in IORegistryExplorer.
-      - SSDT-CLICKPAD for better touchpad.
-      - SSDT-DMAC for DMAC device in IORegistryExplorer.
-      - SSDT-EXT5-TP-LED for fix led on power button.
-      - SSDT-FWHD for FWHD device in IORegistryExplorer.
-      - SSDT-KBD for brightness control from keys.
-        - ACPI Patch
-          - Rename PNLF to XNLF
-          - Rename _Q14 to XQ14 (TP-up)
-          - Rename _Q15 to XQ15 (TP-down)
-      - SSDT-PMC 
-      - SSDT-PTSWAK for better sleep and wake.
-        - ACPI Patch
-          - Name0D-03 to 00
-          - Name0D-04 to 00
-          - Name6D-03 to 00
-          - Name6D-04 to 00
-          - Rename _PTS to ZPTS(1,N)
-          - Rename _WAK to ZWAK(1,N)
-      - SSDT-PWRB-SLPB_STA0B for power and sleep button.
-      - SSDT-RTC_STA0F for enable RTC device.
-    - Kexts
-      - ACPIBatteryManager: For AppleSmartBatteryManager on IORegistryExplorer.
-  - <b>Changed</b>
-    - ACPI
-      - SSDT-XOSI to SSDT-OC-XOSI
-        - ACPI Patch
-          - Rename _OSI to XOSI (OS)
-    - Kexts
-      - FeatureUnlock 1.0.7 to 1.0.6 for fix Airplay to Mac.
-  - <b>Removed</b>
-    - ACPI
-    - Kexts
-      - SMCBatteryManager: Because using ACPIBatteryManager.kext
-      - SMCLightSensor: Because laptop doesn't have a sensor.
+- <b>Added</b>
+  - ACPI
+    - SSDT-AC for AC adapter in IORegistryExplorer.
+    - SSDT-CLICKPAD for better touchpad.
+    - SSDT-DMAC for DMAC device in IORegistryExplorer.
+    - SSDT-EXT5-TP-LED for fix led on power button.
+    - SSDT-FWHD for FWHD device in IORegistryExplorer.
+    - SSDT-KBD for brightness control from keys.
+      - ACPI Patch
+        - Rename PNLF to XNLF
+        - Rename _Q14 to XQ14 (TP-up)
+        - Rename _Q15 to XQ15 (TP-down)
+    - SSDT-PMC 
+    - SSDT-PTSWAK for better sleep and wake.
+      - ACPI Patch
+        - Name0D-03 to 00
+        - Name0D-04 to 00
+        - Name6D-03 to 00
+        - Name6D-04 to 00
+        - Rename _PTS to ZPTS(1,N)
+        - Rename _WAK to ZWAK(1,N)
+    - SSDT-PWRB-SLPB_STA0B for power and sleep button.
+    - SSDT-RTC_STA0F for enable RTC device.
+  - Kexts
+    - ACPIBatteryManager: For AppleSmartBatteryManager on IORegistryExplorer.
+- <b>Changed</b>
+  - ACPI
+    - SSDT-XOSI to SSDT-OC-XOSI
+      - ACPI Patch
+        - Rename _OSI to XOSI (OS)
+  - Kexts
+    - FeatureUnlock 1.0.7 to 1.0.6 for fix Airplay to Mac.
+- <b>Removed</b>
+  - ACPI
+  - Kexts
+    - SMCBatteryManager: Because using ACPIBatteryManager.kext
+    - SMCLightSensor: Because laptop doesn't have a sensor.
 </details> 
   
 # How to make it better?
