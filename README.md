@@ -289,7 +289,7 @@ SSDT | Info | Status
 </details>  
   
 <details>  
-  <summary> <h3>DW1820A Windows 10&11 Driver</h3> </summary>
+  <summary> <h4>DW1820A Windows 10&11 Driver</h4> </summary>
 
 - [Download](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/raw/main/DW1820A%20Wi-Fi%20%26%20Bluetooth%20for%20Windows.zip)
 
