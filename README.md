@@ -44,11 +44,20 @@
 <details>
 <summary>CPU</summary>
   
-- Normal CPU Usage and Temperature
+- Normal
 
   <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Normal%20CPU%20Frequency%20and%20Temperature.png" width="400">
   <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Normal%20CPU%20Usage.png" width="500">
 </details>
+  
+<details>
+<summary>CPU</summary>
+  
+- Maximum
+
+  <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Max%20CPU%20Frequency%20and%20Temperature.png" width="400">
+  <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Max%20CPU%20Usage.png" width="500">
+</details>  
 
 <details>
 <summary>Monterey</summary>
