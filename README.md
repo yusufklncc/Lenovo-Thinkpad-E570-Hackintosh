@@ -42,6 +42,14 @@
 ## Screenshots 📷
 
 <details>
+<summary>CPU</summary>
+  
+- Normal CPU Usage and Temperature
+  <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Normal%20CPU%20Frequency%20and%20Temperature.png" width="300">
+  <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Normal%20CPU%20Usage.png" width="300">
+</details>
+
+<details>
 <summary>Monterey</summary>
 <p align="center">
   <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/macOS%20Monterey.png">
