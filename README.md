@@ -282,7 +282,7 @@ SSDT | Info | Status
 </details>  
   
 <details>  
-  <summary> <h3>Thinkpad's Click and Trackpad</h3> </summary>
+  <summary> <h4>Thinkpad's Click and Trackpad</h4> </summary>
 
 - [Guide](https://github.com/5T33Z0/OC-Little-Translated/tree/main/05_Laptop-specific_Patches/Trackpad_Patches/ThinkPad_Click_and_TrackPad_Patches) | Some issues for me. You can try.
 
