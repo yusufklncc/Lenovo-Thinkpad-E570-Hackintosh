@@ -85,7 +85,48 @@ Fingerprint | Unknown | ❌
 Type | Spec | Status
 :---------|:---------|:----------
 | Wi-Fi | Dell Wireless 1820A ac | ✅
+  
 
+## Update History
+  
+- ✅ macOS Monterey 12.3
+- ✅ macOS Monterey 12.2.1  
+- ✅ macOS Monterey 12.0.1
+- ✅ macOS Big Sur 11.6.1
+- ✅ macOS Big Sur 11.0.1
+- ✅ macOS Catalina 10.15.7
+- ✅ macOS Mojave 10.14.6
+- ✅ macOS High Sierra 10.13.6
+- ✅ macOS Sierra 10.12.6  
+
+## What's working  💻
+  
+Type | Status
+:---------|:---------
+Turbo boost and CPU frequency stage |  ✅  
+Intel HD Graphics 620              |  ✅  
+Brightness control                  |  ✅  
+HDMI                                |  ✅  
+Audio Conexant CX20753/4            |  ✅  
+Realtek Ethernet RTL8111            |  ✅  
+DW1820A Wi-Fi and Bluetooth, Airdrop, Handoff, SideCar, iMessage...         |  ✅  
+USB 3.0 and Type-C (with Port Map)        |  ✅  
+Touchpad (14 gestures are working)   |  ✅  
+Battery status   |  ✅  
+Camera   |  ✅  
+S3 Sleep / Wake   |  ✅  
+S4 Hibernation / Wake   |  ✅  
+Shutdown / Reboot   |  ✅  
+Fn shortcut keys   |  ✅  
+ 
+## What's you have to do  💻
+  
+Type | Info | Status
+:---------|:---------|:----------
+Micro SD Card Reader | Not working in OpenCore. You have to patch DSDT or use CLOVER | ⚠️ 
+SMBIOS Settings  | With OpenCore Configurator you should definitely set your SMBIOS settings and ROM value because the config does not contain SMBIOS information MacBook Pro 14.1. ROM value is your ethernet MAC address. Be sure your ethernet is en0 in Hackintool. |  ⚠️
+Rename config    | If you install Monterey+, you can delete BrcmBluetoothInjector.kext in OC/Kexts. If you install Big Sur-, you can delete BlueToolFixup.kext in OC/Kexts. | ⚠️ 
+  
 ## Kext Used 
  
 Kext | Info 
@@ -133,18 +174,6 @@ SSDT | Info | Status
 [SSDT-RTC_STA0F.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/System_Clock_(SSDT-RTC0)) | Force-enable the RTC Device. | [Functional]
 [SSDT-SBUS-MCHC.aml](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus.html) | Fixes System Management Bus and Memory Controller in macOS. | [Functional]
 
-  
-## Update History
-  
-- ✅ macOS Monterey 12.3
-- ✅ macOS Monterey 12.2.1  
-- ✅ macOS Monterey 12.0.1
-- ✅ macOS Big Sur 11.6.1
-- ✅ macOS Big Sur 11.0.1
-- ✅ macOS Catalina 10.15.7
-- ✅ macOS Mojave 10.14.6
-- ✅ macOS High Sierra 10.13.6
-- ✅ macOS Sierra 10.12.6
 
 ## Changelog
   
@@ -161,33 +190,9 @@ SSDT | Info | Status
   
   - [Download](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/raw/main/DW1820A%20Wi-Fi%20%26%20Bluetooth%20for%20Windows.zip)
   
-## What's working  💻
+## Thinkpad's Click and Trackpad
   
-Type | Status
-:---------|:---------
-Turbo boost and CPU frequency stage |  ✅  
-Intel HD Graphics 620              |  ✅  
-Brightness control                  |  ✅  
-HDMI                                |  ✅  
-Audio Conexant CX20753/4            |  ✅  
-Realtek Ethernet RTL8111            |  ✅  
-DW1820A Wi-Fi and Bluetooth, Airdrop, Handoff, SideCar, iMessage...         |  ✅  
-USB 3.0 and Type-C (with Port Map)        |  ✅  
-Touchpad (14 gestures are working)   |  ✅  
-Battery status   |  ✅  
-Camera   |  ✅  
-S3 Sleep / Wake   |  ✅  
-S4 Hibernation / Wake   |  ✅  
-Shutdown / Reboot   |  ✅  
-Fn shortcut keys   |  ✅  
- 
-## What's you have to do  💻
-  
-Type | Info | Status
-:---------|:---------|:----------
-Micro SD Card Reader | Not working in OpenCore. You have to patch DSDT or use CLOVER | ⚠️ 
-SMBIOS Settings  | With OpenCore Configurator you should definitely set your SMBIOS settings and ROM value because the config does not contain SMBIOS information MacBook Pro 14.1. ROM value is your ethernet MAC address. Be sure your ethernet is en0 in Hackintool. |  ⚠️
-Rename config    | If you install Monterey+, you can delete BrcmBluetoothInjector.kext in OC/Kexts. If you install Big Sur-, you can delete BlueToolFixup.kext in OC/Kexts. | ⚠️ 
+- [Guide](https://github.com/5T33Z0/OC-Little-Translated/tree/main/05_Laptop-specific_Patches/Trackpad_Patches/ThinkPad_Click_and_TrackPad_Patches)
   
 ## Credits
   
