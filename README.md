@@ -195,11 +195,15 @@ SSDT | Info | Status
 ## How to Use?
 - Download and open RDM.app. Follow images below.
 <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/RDM/RDM%201680x1050.png" alt="1680x1050" width="600"> 
+
 - Set resolution 1680x1050.
 <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/RDM/RDM%20Edit%20Button.png" alt="RDM Edit Button" width="600"> 
+
 <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/RDM/RDM%20Resolution%20Settings.png" alt="RDM Resolution Settings" width="600"> 
+
 - Set what resolution you want. Click save, enter password and reboot.
 <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/RDM/RDM%201600x900.png" alt="1600x900" width="600">  
+
 - Open RMD and select resolution what you want. This is only once.
 
 </details>  
