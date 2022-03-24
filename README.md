@@ -116,7 +116,7 @@ Camera | Acer Integrated Camera | ✅
 
 Type | Spec | Status
 :---------|:---------|:----------
-| Wi-Fi | Dell Wireless 1820A ac (BCM4350 802.11ac) | ✅
+| Wi-Fi | Dell Wireless 1820A ac (BCM4350 + BCM2045A0) | ✅
   
 
 ## macOS Update History
