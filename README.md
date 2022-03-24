@@ -98,21 +98,25 @@
 
 Type | Spec | Status
 :---------|:---------|:----------
-Model Name      | Lenovo Thinkpad E570 | ✅
-CPU              | Intel(R) Core(TM) i5-7200U CPU @ 2.40GHz Kaby Lake | ✅
-RAM           | 8 GB 2400 MHz DDR4 | ✅
+Model Name      | Lenovo Thinkpad E570 (20H500C5TX) | ✅
+CPU              | Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz Kaby Lake | ✅
+RAM           | SK Hynix HMA851S6AFR6N-UH 8(4+4) GB 2400 MHz DDR4 | ✅
 Internal Graphics Card | Intel(R) HD Graphics 620 (1 GB) | ✅
 Wi-Fi             | Qualcomm Atheros QCA9377 | ❌
-Ethernet          | Realtek RTL8111 | ✅
+Ethernet          | Realtek RTL8111/8168/8411 | ✅
 Audio       | Conexant CX20753/4 | ✅
+Touchpad | SynPS/2 Synaptics TouchPad | ✅
 SD Card Reader | O2 Micro SD/MMC | ⚠️
-Fingerprint | Unknown | ❌
+Fingerprint | Validity Sensor VFS5011 | ❌
+Display | BOE CQ LCD Monitor(15.5 inch) | ✅
+Camera | Acer Integrated Camera | ✅
+  
   
 ## Modifications  🔨
 
 Type | Spec | Status
 :---------|:---------|:----------
-| Wi-Fi | Dell Wireless 1820A ac | ✅
+| Wi-Fi | Dell Wireless 1820A ac (BCM4350 802.11ac) | ✅
   
 
 ## macOS Update History
