@@ -13,6 +13,8 @@
   <img src="https://img.shields.io/badge/OpenCore-0.7.9-9cf" width="155"/> </a>
 <a href="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/releases">
   <img src="https://img.shields.io/badge/release-EFI-blue.svg" width="115"/> </a>
+<a href="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#changelog">
+  <img src="https://img.shields.io/badge/Changelog-green.svg" width="115"/> </a>
 </p>
 <p align="center">
 <a href="https://t.me/yusufklncc">
