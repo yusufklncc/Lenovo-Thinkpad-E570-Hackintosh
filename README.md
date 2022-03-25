@@ -224,6 +224,7 @@ SSDT | Info | Status
 - <b>Removed</b>
   - Kexts
     - ACPIBatteryManager: Battery graphic issue on System Preferences.
+    - SMCSuperIO: Laptop doesn't have a fan sensor.
     - USBInjectAll: No need anymore.
     - USBPorts: USBToolBox and UTBMap is using now.
   
@@ -242,6 +243,8 @@ SSDT | Info | Status
     - SSDT-CLICKPAD some compabilty problems.
     - SSDT-KBD
       - Using BrightnessKeys.kext and ACPI patch.
+      - Disabled Rename _Q14 to XQ14 (TP-up)
+      - Disabled Rename _Q15 to XQ15 (TP-down)
   
 </details>
 
@@ -281,7 +284,6 @@ SSDT | Info | Status
   - Kexts
     - FeatureUnlock 1.0.7 to 1.0.6 for fix Airplay to Mac.
 - <b>Removed</b>
-  - ACPI
   - Kexts
     - SMCBatteryManager: Because using ACPIBatteryManager.kext
     - SMCLightSensor: Because laptop doesn't have a sensor.
