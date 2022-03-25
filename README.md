@@ -14,7 +14,7 @@
 <a href="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/releases">
   <img src="https://img.shields.io/badge/release-EFI-blue.svg" width="115"/> </a>
 <a href="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#changelog">
-  <img src="https://img.shields.io/badge/Changelog-green.svg" width="115"/> </a>
+  <img src="https://img.shields.io/badge/Changelog-green.svg" width="110"/> </a>
 </p>
 <p align="center">
 <a href="https://t.me/yusufklncc">
