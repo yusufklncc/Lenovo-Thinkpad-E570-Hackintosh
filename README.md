@@ -211,7 +211,7 @@ SSDT | Info | Status
 
 ## Changelog
 <details>
-<summary>2022-03-23 18:35</summary>
+<summary>2022-03-25 16:25</summary>
 
 - <b>Added</b>
   - Kexts
