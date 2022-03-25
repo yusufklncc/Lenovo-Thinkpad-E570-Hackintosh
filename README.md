@@ -213,6 +213,27 @@ SSDT | Info | Status
 
 - <b>Added</b>
   - Kexts
+    - SMCBatteryManager: For true graphic in System Preferences.
+    - RestrictEvents: For changed CPU name on About This Mac. (Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz)
+    - USBToolBox: Injects UTBMap.kext.
+    - UTBMap: Mapped USB Ports.
+- <b>Changed</b>  
+    - config
+      - Edited for CPU name. Don't change CPUType value.
+        - Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz. 
+- <b>Removed</b>
+  - Kexts
+    - ACPIBatteryManager: Battery graphic issue on System Preferences.
+    - USBInjectAll: No need anymore.
+    - USBPorts: USBToolBox and UTBMap is using now.
+  
+</details>
+  
+<details>
+<summary>2022-03-23 18:35</summary>
+
+- <b>Added</b>
+  - Kexts
     - BrightnessKeys: Brightness control on keyboard.
       - ACPI Patch
         - Rename (NBCF, 0x00) to Name (NBCF, 0x01)
