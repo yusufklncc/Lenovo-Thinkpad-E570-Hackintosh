@@ -102,7 +102,7 @@ Type | Spec | Status
 :---------|:---------|:----------
 Model Name      | Lenovo Thinkpad E570 (20H500C5TX) | ✅
 CPU              | Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz Kaby Lake | ✅
-RAM           | SK Hynix HMA851S6AFR6N-UH 8(4+4) GB 2400 MHz DDR4 | ✅
+RAM           | SK Hynix HMA851S6AFR6N-UH 8(4+4) GB 2133 MHz DDR4 | ✅
 Internal Graphics Card | Intel(R) HD Graphics 620 (1 GB) | ✅
 Wi-Fi             | Qualcomm Atheros QCA9377 | ❌
 Ethernet          | Realtek RTL8111/8168/8411 | ✅
