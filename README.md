@@ -126,6 +126,7 @@ Type | Spec | Status
 - ✅ macOS Monterey 12.3
 - ✅ macOS Monterey 12.2.1  
 - ✅ macOS Monterey 12.0.1
+- ✅ macOS Big Sur 11.6.5 (Currently using)
 - ✅ macOS Big Sur 11.6.1
 - ✅ macOS Big Sur 11.0.1
 - ✅ macOS Catalina 10.15.7
