@@ -122,7 +122,10 @@ Type | Spec | Status
   
 
 ## macOS Update History
-  
+
+- ✅ macOS Monterey 12.4 Beta 2  
+- ✅ macOS Monterey 12.4 Beta 1
+- ✅ macOS Monterey 12.3.1  
 - ✅ macOS Monterey 12.3
 - ✅ macOS Monterey 12.2.1  
 - ✅ macOS Monterey 12.0.1
