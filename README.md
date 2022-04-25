@@ -211,6 +211,39 @@ SSDT | Info | Status
 
 ## Changelog
 <details>
+<summary>2022-04-25 21:43</summary>
+
+- <b>Added</b>
+  - DeviceProperties
+    - Ethernet
+      - ´built-in 01 DATA´ for en0.
+  - Kernel
+    - Add
+      - Min and Max Kernel Values
+      - USBMap: Mapped USB ports for Catalina and newer.
+      - USBMapLegacy: Mapped USB ports for Mojave and older.
+      - BrcmBluetoothInjector: Bluetooth injection for Big Sur and older.
+      - BrcmPatchRAM2: Bluetooth injection from Sierra to Mojave.
+- <b>Changed</b>
+    - Kernel
+      - Quirks
+        - CustomSMBIOSGuide: False
+    - Misc
+      - Boot
+        - LauncherOption: Full
+    - PlatformInfo
+      - UpdateSMBIOSMode: Create
+    - UEFI
+      - Input
+        - PointerSupport: False
+- <b>Removed</b>
+  - Kernel
+    - Add
+      - VoodooPS2Mouse
+  
+</details>
+  
+<details>
 <summary>2022-03-25 16:25</summary>
 
 - <b>Added</b>
