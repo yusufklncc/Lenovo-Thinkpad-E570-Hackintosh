@@ -147,7 +147,7 @@ Brightness control                  |  ✅
 HDMI                                |  ✅  
 Audio Conexant CX20753/4            |  ✅  
 Realtek Ethernet RTL8111            |  ✅  
-DW1820A Wi-Fi and Bluetooth, Airdrop, Handoff, SideCar, iMessage...         |  ✅  
+DW1820A Wi-Fi and Bluetooth, Airdrop, Handoff, SideCar, iMessage..         |  ✅  
 USB 3.0 and Type-C (with Port Map)        |  ✅  
 Touchpad (14 gestures are working)   |  ✅  
 Battery status   |  ✅  
@@ -163,7 +163,7 @@ Type | Info | Status
 :---------|:---------|:----------
 Micro SD Card Reader | Not working in OpenCore. You have to patch DSDT or use CLOVER | ⚠️ 
 SMBIOS Settings  | With [GenSMBIOS] you should definitely set your SMBIOS settings and ROM value for iCloud and Apple services. ROM value is your ethernet MAC address. Be sure your ethernet is en0 in Hackintool. |  ⚠️
-Rename config    | If you install Monterey+, you can delete BrcmBluetoothInjector.kext in OC/Kexts. If you install Big Sur-, you can delete BlueToolFixup.kext in OC/Kexts. | ⚠️ 
+Rename config    |
   
 ## Kext Used 
  
