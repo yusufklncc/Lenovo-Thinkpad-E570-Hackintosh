@@ -8,9 +8,9 @@
 
 <p align="center">
 <a href="https://www.apple.com/macos/monterey/">
-  <img src="https://img.shields.io/badge/macOS-Monterey_v12.3-blue" width="215"/> </a>
+  <img src="https://img.shields.io/badge/macOS-Monterey_v13.0-blue" width="215"/> </a>
 <a href="https://github.com/acidanthera/OpenCorePkg/releases">
-  <img src="https://img.shields.io/badge/OpenCore-0.7.9-9cf" width="155"/> </a>
+  <img src="https://img.shields.io/badge/OpenCore-0.8.5-9cf" width="155"/> </a>
 <a href="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/releases">
   <img src="https://img.shields.io/badge/release-EFI-blue.svg" width="115"/> </a>
 <a href="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#changelog">
@@ -123,13 +123,16 @@ Type | Spec | Status
 
 ## macOS Update History
 
+- ✅ macOS Ventura 13.0 Beta 4 (Currently using)
+- ✅ macOS Ventura 13.0 Beta 3
+- ✅ macOS Monterey 12.6
 - ✅ macOS Monterey 12.4 Beta 2  
 - ✅ macOS Monterey 12.4 Beta 1
 - ✅ macOS Monterey 12.3.1  
 - ✅ macOS Monterey 12.3
 - ✅ macOS Monterey 12.2.1  
 - ✅ macOS Monterey 12.0.1
-- ✅ macOS Big Sur 11.6.5 (Currently using)
+- ✅ macOS Big Sur 11.6.5
 - ✅ macOS Big Sur 11.6.1
 - ✅ macOS Big Sur 11.0.1
 - ✅ macOS Catalina 10.15.7
