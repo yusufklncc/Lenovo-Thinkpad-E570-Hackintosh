@@ -20,7 +20,7 @@
 <a href="https://t.me/yusufklncc">
   <img src="https://img.shields.io/badge/-@yusufklncc-2CA5E0?logo=Telegram&logoColor=blue" width="150"/> </a>
 <a href="https://www.youtube.com/c/yusufklncc">
-  <img src="https://img.shields.io/badge/-@yusufklncc-lightgrey?logo=YouTube&logoColor=red" width="150"/> </a>
+  <img src="https://img.shields.io/badge/-@yusufklncc-red?logo=YouTube&logoColor=white" width="150"/> </a>
 <a href="https://www.paypal.com/paypalme/sevenpay">
   <img src="https://img.shields.io/badge/-@sevenpay-2CA5E0?logo=PayPal&logoColor=red" width="140"/> </a>
 
@@ -39,7 +39,7 @@
     - [Thinkpad's Click and Trackpad](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#thinkpads-click-and-trackpad)
     - [DW1820A Windows Driver](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#dw1820a-windows-1011-driver)
   - [Credits](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#credits)
-  - [Donate](https://github.com/yusufklncc/yusfklncc/blob/main/Donate%20-%20Bağış.md)
+  - [Donate](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#-donate---ba%C4%9F%C4%B1%C5%9F-)
   
 ## Screenshots 📷
 
@@ -166,7 +166,7 @@ Type | Info | Status
 :---------|:---------|:----------
 Micro SD Card Reader | Not working in OpenCore. You have to patch DSDT or use CLOVER | ⚠️ 
 SMBIOS Settings  | With [GenSMBIOS] you should definitely set your SMBIOS settings and ROM value for iCloud and Apple services. ROM value is your ethernet MAC address. Be sure your ethernet is en0 in Hackintool. |  ⚠️
-Rename config    |
+Rename config    |  If you have QCA rename no Wi-Fİ config. "config.plist". | ⚠️
   
 ## Kext Used 
  
@@ -184,6 +184,7 @@ Kext | Info
 [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X) | OS X open source driver for the Realtek RTL8111/8168 family.
 [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup) | An open source kernel extension providing a set of patches required for non-native Airport Broadcom Wi-Fi cards.
 [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM) | BrcmPatchRAM kext is a macOS driver which applies PatchRAM updates for Broadcom RAMUSB based devices.
+[BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM) | [Bluetooth] Injecting bluetooth firmware on Monterey+.
 [NVMeFix](https://github.com/acidanthera/NVMeFix) | NVMeFix is a set of patches for the Apple NVMe storage driver, IONVMeFamily.
 [BrightnessKeys](https://github.com/acidanthera/BrightnessKeys) | Automatic handling of brightness keys based on ACPI Specification.
 [CPUFriend](https://github.com/acidanthera/CPUFriend) | A Lilu plug-in for dynamic power management data injection.
@@ -288,7 +289,6 @@ SSDT | Info | Status
       - Using BrightnessKeys.kext and ACPI patch.
       - Disabled Rename _Q14 to XQ14 (TP-up)
       - Disabled Rename _Q15 to XQ15 (TP-down)
-  
 </details>
 
 <details>
