@@ -16,7 +16,7 @@
   <a href="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/issues"> 
   <img src="https://img.shields.io/github/issues/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh" width="145"/> </a>
 <a href="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#changelog">
-  <img src="https://img.shields.io/badge/Changelog-green.svg" width="110"/> </a>
+  <img src="https://img.shields.io/badge/Changelog-green.svg" width="107"/> </a>
 </p>
 <p align="center">
 <a href="https://t.me/yusufklncc">
