@@ -10,7 +10,7 @@
 <a href="https://www.apple.com/macos/monterey/">
   <img src="https://img.shields.io/badge/macOS-Ventura_v13.0-orange" width="215"/> </a>
 <a href="https://github.com/acidanthera/OpenCorePkg/releases">
-  <img src="https://img.shields.io/badge/OpenCore-0.8.5-9cf" width="155"/> </a>
+  <img src="https://img.shields.io/badge/OpenCore-0.8.6-9cf" width="155"/> </a>
 <a href="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/releases">
   <img src="https://img.shields.io/badge/release-EFI-blue.svg" width="115"/> </a>
   <a href="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/issues"> 
@@ -24,7 +24,7 @@
 <a href="https://www.youtube.com/c/yusufklncc">
   <img src="https://img.shields.io/badge/-@yusufklncc-red?logo=YouTube&logoColor=white" width="150"/> </a>
 <a href="https://www.paypal.com/paypalme/sevenpay">
-  <img src="https://img.shields.io/badge/-@sevenpay-2CA5E0?logo=PayPal&logoColor=red" width="140"/> </a>
+  <img src="https://img.shields.io/badge/-@sevenpay-2CA5E0?logo=PayPal" width="140"/> </a>
 <a href="https://www.buymeacoffee.com/yusufklncc">
   <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" width="150"/> </a>
 
