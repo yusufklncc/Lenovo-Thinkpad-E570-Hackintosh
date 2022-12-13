@@ -8,7 +8,7 @@
 
 <p align="center">
 <a href="https://www.apple.com/macos/monterey/">
-  <img src="https://img.shields.io/badge/macOS-Ventura_v13.0-orange" width="215"/> </a>
+  <img src="https://img.shields.io/badge/macOS-Ventura_v13.1-orange" width="215"/> </a>
 <a href="https://github.com/acidanthera/OpenCorePkg/releases">
   <img src="https://img.shields.io/badge/OpenCore-0.8.7-9cf" width="155"/> </a>
 <a href="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/releases">
@@ -119,7 +119,7 @@ Wi-Fi             | Qualcomm Atheros QCA9377 | ❌
 Ethernet          | Realtek RTL8111/8168/8411 | ✅
 Audio       | Conexant CX20753/4 | ✅
 Touchpad | SynPS/2 Synaptics TouchPad | ✅
-SD Card Reader | O2 Micro SD/MMC | ⚠️
+SD Card Reader | O2 Micro SD/MMC | ✅
 Fingerprint | Validity Sensor VFS5011 | ❌
 Display | BOE CQ LCD Monitor(15.5 inch) | ✅
 Camera | Acer Integrated Camera | ✅
