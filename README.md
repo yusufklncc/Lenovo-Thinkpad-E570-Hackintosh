@@ -59,6 +59,13 @@
   <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Max%20CPU%20Usage.png" width="400">
 
 <details>
+<summary>Ventura</summary>
+<p align="center">
+  <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/macOS%20Ventura.png">
+</p>
+</details>
+
+<details>
 <summary>Monterey</summary>
 <p align="center">
   <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/macOS%20Monterey.png">
