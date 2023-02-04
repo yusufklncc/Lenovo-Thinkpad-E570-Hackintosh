@@ -10,7 +10,7 @@
 <a href="https://www.apple.com/macos/monterey/">
   <img src="https://img.shields.io/badge/macOS-Ventura_v13.1-orange" width="215"/> </a>
 <a href="https://github.com/acidanthera/OpenCorePkg/releases">
-  <img src="https://img.shields.io/badge/OpenCore-0.8.7-9cf" width="155"/> </a>
+  <img src="https://img.shields.io/badge/OpenCore-0.8.8-9cf" width="155"/> </a>
 <a href="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/releases">
   <img src="https://img.shields.io/badge/release-EFI-blue.svg" width="115"/> </a>
   <a href="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/issues"> 
@@ -20,11 +20,11 @@
 </p>
 <p align="center">
 <a href="https://t.me/yusufklncc">
-  <img src="https://img.shields.io/badge/-@yusufklncc-2CA5E0?logo=Telegram&logoColor=blue" width="150"/> </a>
+  <img src="https://img.shields.io/badge/-@yusufklncc-2CA5E0?logo=Telegram&logoColor=white" width="150"/> </a>
 <a href="https://www.youtube.com/c/yusufklncc">
   <img src="https://img.shields.io/badge/-@yusufklncc-red?logo=YouTube&logoColor=white" width="150"/> </a>
 <a href="https://www.paypal.com/paypalme/sevenpay">
-  <img src="https://img.shields.io/badge/-@sevenpay-2CA5E0?logo=PayPal" width="140"/> </a>
+  <img src="https://img.shields.io/badge/-@sevenpay-white?logo=PayPal&logoColor=blue" width="140"/> </a>
 <a href="https://www.buymeacoffee.com/yusufklncc">
   <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" width="150"/> </a>
 
@@ -48,12 +48,12 @@
 ## Screenshots 📷
 
 ### CPU Usage and Temperature  
-- Normal
+#### - Normal
 
   <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Normal%20CPU%20Frequency%20and%20Temperature.png" width="300">
   <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Normal%20CPU%20Usage.png" width="400">
   
-- Maximum
+#### - Maximum
 
   <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Max%20CPU%20Frequency%20and%20Temperature.png" width="300">
   <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Max%20CPU%20Usage.png" width="400">
@@ -108,7 +108,6 @@
 </details>
 
 ## Original Hardware  💻
-
 Type | Spec | Status
 :---------|:---------|:----------
 Model Name      | Lenovo Thinkpad E570 (20H500C5TX) | ✅
@@ -124,53 +123,51 @@ Fingerprint | Validity Sensor VFS5011 | ❌
 Display | BOE CQ LCD Monitor(15.5 inch) | ✅
 Camera | Acer Integrated Camera | ✅
   
-  
 ## Modifications  🔨
-
 Type | Spec | Status
 :---------|:---------|:----------
-| Wi-Fi | Dell Wireless 1820A ac (BCM4350 + BCM2045A0) | ✅
+Wi-Fi | Dell Wireless 1820A ac (BCM4350 + BCM2045A0) | ✅
   
 
 ## macOS Update History
 
-- ✅ macOS Ventura 13.0 Beta 4 (Currently using)
+- ✅ macOS Ventura 13.0 Beta 4
 - ✅ macOS Ventura 13.0 Beta 3
 - ✅ macOS Monterey 12.6
-- ✅ macOS Monterey 12.4 Beta 2  
-- ✅ macOS Monterey 12.4 Beta 1
-- ✅ macOS Monterey 12.3.1  
+- ✅ macOS Monterey 12.4
+- ✅ macOS Monterey 12.4
+- ✅ macOS Monterey 12.3.1
 - ✅ macOS Monterey 12.3
-- ✅ macOS Monterey 12.2.1  
+- ✅ macOS Monterey 12.2.1
 - ✅ macOS Monterey 12.0.1
+- ✅ macOS Big Sur 11.7.3 (Currently using)
 - ✅ macOS Big Sur 11.6.5
 - ✅ macOS Big Sur 11.6.1
 - ✅ macOS Big Sur 11.0.1
 - ✅ macOS Catalina 10.15.7
 - ✅ macOS Mojave 10.14.6
 - ✅ macOS High Sierra 10.13.6
-- ✅ macOS Sierra 10.12.6  
+- ✅ macOS Sierra 10.12.6
 
 ## What's working  💻
-  
 Type | Status
 :---------|:---------
-Turbo boost and CPU frequency stage |  ✅  
-Intel HD Graphics 620              |  ✅  
-Brightness control                  |  ✅  
-HDMI                                |  ✅  
-Audio Conexant CX20753/4            |  ✅  
-Realtek Ethernet RTL8111            |  ✅  
-DW1820A Wi-Fi and Bluetooth, Airdrop, Handoff, SideCar, iMessage..         |  ✅  
-USB 3.0 and Type-C (with Port Map)        |  ✅  
-Touchpad (14 gestures are working)   |  ✅  
-Battery status   |  ✅  
-Camera   |  ✅  
+Turbo boost and CPU frequency stage |  ✅
+Intel HD Graphics 620              |  ✅
+Brightness control                  |  ✅
+HDMI                                |  ✅
+Audio Conexant CX20753/4            |  ✅
+Realtek Ethernet RTL8111            |  ✅
+DW1820A Wi-Fi and Bluetooth, Airdrop, Handoff, SideCar, iMessage..         |  ✅
+USB 3.0 and Type-C (with Port Map)        |  ✅
+Touchpad (14 gestures are working)   |  ✅
+Battery status   |  ✅
+Camera   |  ✅
 Micro SD Card Reader | ✅
-S3 Sleep / Wake   |  ✅  
-S4 Hibernation / Wake   |  ✅  
-Shutdown / Reboot   |  ✅  
-Fn shortcut keys   |  ✅  
+S3 Sleep / Wake   |  ✅
+S4 Hibernation / Wake   |  ✅
+Shutdown / Reboot   |  ✅
+Fn shortcut keys   |  ✅
  
 ## What's you have to do  💻
   
@@ -179,9 +176,8 @@ Type | Info | Status
 SMBIOS Settings  | With [GenSMBIOS] you should definitely set your SMBIOS settings and ROM value for iCloud and Apple services. ROM value is your ethernet MAC address. Be sure your ethernet is en0 in Hackintool. |  ⚠️
 Rename config    |  If you have QCA rename no Wi-Fİ config. "config.plist". | ⚠️
   
-## Kext Used 
- 
-Kext | Info 
+## Kext Used
+Kext | Info
 :---------|:---------
 [Lilu](https://github.com/acidanthera/Lilu) | An open source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS.
 [VirtualSMC](https://github.com/acidanthera/VirtualSMC) | Advanced Apple SMC emulator in the kernel. Requires Lilu for full functioning.
@@ -189,13 +185,6 @@ Kext | Info
 [SMCBatteryManager](https://github.com/acidanthera/VirtualSMC) | a member of VirtualSMC that parses battery info.
 [SMCProcessor](https://github.com/acidanthera/VirtualSMC) | a member of VirtualSMC that provides power info of processor temperature.
 [AppleALC.kext](https://github.com/acidanthera/AppleALC) | An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications.
-[USBMap](https://www.youtube.com/watch?v=rlTDHkPzjAk&t=654s) | Kext to inject mapped USB Ports for Catalina and newer.
-[USBMapLegacy](https://www.youtube.com/watch?v=rlTDHkPzjAk&t=654s) | Kext to inject mapped USB Ports for Mojave and older.
-[VoodooPS2Controller](https://github.com/acidanthera/VoodooPS2) | Contains updated Voodoo PS/2 Controller, improved Keyboard & Synaptics TouchPad.
-[RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X) | OS X open source driver for the Realtek RTL8111/8168 family.
-[AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup) | An open source kernel extension providing a set of patches required for non-native Airport Broadcom Wi-Fi cards.
-[BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM) | BrcmPatchRAM kext is a macOS driver which applies PatchRAM updates for Broadcom RAMUSB based devices.
-[BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM) | Injecting bluetooth firmware on Monterey+.
 [NVMeFix](https://github.com/acidanthera/NVMeFix) | NVMeFix is a set of patches for the Apple NVMe storage driver, IONVMeFamily.
 [BrightnessKeys](https://github.com/acidanthera/BrightnessKeys) | Automatic handling of brightness keys based on ACPI Specification.
 [CPUFriend](https://github.com/acidanthera/CPUFriend) | A Lilu plug-in for dynamic power management data injection.
@@ -204,9 +193,15 @@ Kext | Info
 [HibernationFixup](https://github.com/acidanthera/HibernationFixup) | An open source kernel extension providing a sync between RTC variables and NVRAM.
 [RestrictEvents](https://github.com/acidanthera/RestrictEvents) | Lilu Kernel extension for blocking unwanted processes causing compatibility issues on different hardware and unlocking the support for certain features restricted to other hardware.
 [NoTouchID](https://github.com/al3xtjames/NoTouchID) | Lilu plugin for disabling Touch ID support.
+[VoodooPS2Controller](https://github.com/acidanthera/VoodooPS2) | Contains updated Voodoo PS/2 Controller, improved Keyboard & Synaptics TouchPad.
+[AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup) | An open source kernel extension providing a set of patches required for non-native Airport Broadcom Wi-Fi cards.
+[BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM) | BrcmPatchRAM kext is a macOS driver which applies PatchRAM updates for Broadcom RAMUSB based devices.
+[BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM) | Injecting bluetooth firmware on Monterey+.
+[RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X) | OS X open source driver for the Realtek RTL8111/8168 family.
+[USBMap](https://www.youtube.com/watch?v=rlTDHkPzjAk&t=654s) | Kext to inject mapped USB Ports for Catalina and newer.
+[USBMapLegacy](https://www.youtube.com/watch?v=rlTDHkPzjAk&t=654s) | Kext to inject mapped USB Ports for Mojave and older.
   
 ## SSDT Used
-  
 SSDT | Info | Status
 :---------|:---------|:---------
 [SSDT-AC.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/AC_Adapter_(SSDT-AC)) | Attaches an AC Adapter Device existing in a Laptop's DSDT to the AppleACPIACAdapter service in the IORegistry of macOS. | [Cosmetic]
