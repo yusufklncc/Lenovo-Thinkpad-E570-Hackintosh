@@ -129,6 +129,8 @@ Wi-Fi | Dell Wireless 1820A ac (BCM4350 + BCM2045A0) | ✅
 
 ## macOS Update History
 
+- ✅ macOS Ventura 13.4
+- ✅ macOS Ventura 13.3.1
 - ✅ macOS Ventura 13.0 Beta 4
 - ✅ macOS Ventura 13.0 Beta 3
 - ✅ macOS Monterey 12.6
@@ -171,8 +173,8 @@ Fn shortcut keys   |  ✅
   
 Type | Info | Status
 :---------|:---------|:----------
-SMBIOS Settings  | With [GenSMBIOS] you should definitely set your SMBIOS settings and ROM value for iCloud and Apple services. ROM value is your ethernet MAC address. Be sure your ethernet is en0 in Hackintool. |  ⚠️
-Rename config    |  If you have QCA rename no Wi-Fİ config. "config.plist". | ⚠️
+SMBIOS Settings  | With [GenSMBIOS] you should definitely set your SMBIOS MBP14,1 and ROM value for iCloud and Apple services. ROM value is your ethernet MAC address. |  ⚠️
+Rename config    |  If you have QCA rename qualcomm config. "config.plist". | ⚠️
   
 ## Kext Used
 Kext | Info
@@ -184,7 +186,6 @@ Kext | Info
 [SMCProcessor](https://github.com/acidanthera/VirtualSMC) | a member of VirtualSMC that provides power info of processor temperature.
 [AppleALC.kext](https://github.com/acidanthera/AppleALC) | An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications.
 [NVMeFix](https://github.com/acidanthera/NVMeFix) | NVMeFix is a set of patches for the Apple NVMe storage driver, IONVMeFamily.
-[BrightnessKeys](https://github.com/acidanthera/BrightnessKeys) | Automatic handling of brightness keys based on ACPI Specification.
 [CPUFriend](https://github.com/acidanthera/CPUFriend) | A Lilu plug-in for dynamic power management data injection.
 [CPUFriendDataProvider](https://github.com/acidanthera/CPUFriend) | A CPUFriend plug-in for CPU power management.
 [FeatureUnlock](https://github.com/acidanthera/FeatureUnlock) | Lilu Kernel extension for enabling: Sidecar, NightShift, AirPlay to Mac, Universal Control.
@@ -192,16 +193,18 @@ Kext | Info
 [RestrictEvents](https://github.com/acidanthera/RestrictEvents) | Lilu Kernel extension for blocking unwanted processes causing compatibility issues on different hardware and unlocking the support for certain features restricted to other hardware.
 [NoTouchID](https://github.com/al3xtjames/NoTouchID) | Lilu plugin for disabling Touch ID support.
 [VoodooPS2Controller](https://github.com/acidanthera/VoodooPS2) | Contains updated Voodoo PS/2 Controller, improved Keyboard & Synaptics TouchPad.
+[BrightnessKeys](https://github.com/acidanthera/BrightnessKeys) | Automatic handling of brightness keys based on ACPI Specification.
 [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup) | An open source kernel extension providing a set of patches required for non-native Airport Broadcom Wi-Fi cards.
 [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM) | BrcmPatchRAM kext is a macOS driver which applies PatchRAM updates for Broadcom RAMUSB based devices.
 [BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM) | Injecting bluetooth firmware on Monterey+.
 [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X) | OS X open source driver for the Realtek RTL8111/8168 family.
-[USBMap](https://www.youtube.com/watch?v=rlTDHkPzjAk&t=654s) | Kext to inject mapped USB Ports for Catalina and newer.
-[USBMapLegacy](https://www.youtube.com/watch?v=rlTDHkPzjAk&t=654s) | Kext to inject mapped USB Ports for Mojave and older.
+[USBToolBox]([https://www.youtube.com/watch?v=rlTDHkPzjAk&t=654s](https://github.com/USBToolBox/kext)) | Kext for mapped USB ports.
+[UTBMap]([https://www.youtube.com/watch?v=rlTDHkPzjAk&t=654s](https://github.com/USBToolBox/kext)) | Kext to inject mapped USB ports
   
 ## SSDT Used
 SSDT | Info | Status
 :---------|:---------|:---------
+[SSDT-PTSWAK.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/04_Fixing_Sleep_and_Wake_Issues/PTSWAK_Sleep_and_Wake_Fix) | Comprehensive Sleep and Wake Patch. | [Functional]
 [SSDT-AC.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/AC_Adapter_(SSDT-AC)) | Attaches an AC Adapter Device existing in a Laptop's DSDT to the AppleACPIACAdapter service in the IORegistry of macOS. | [Cosmetic]
 [SSDT-BATT.aml](https://dortania.github.io/OpenCore-Post-Install/laptop-specific/battery.html#battery-status) | Fixes the battery status indicator. | [Functional]
 [SSDT-CLICKPAD.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/05_Laptop-specific_Patches/Trackpad_Patches/ThinkPad_Click_and_TrackPad_Patches) | Fixes Touchpad Buttons but some error. Customize Touchpad Settings. | [Functional] <b>DISABLED</b>
@@ -216,13 +219,28 @@ SSDT | Info | Status
 [SSDT-PLUG.aml](https://dortania.github.io/Getting-Started-With-ACPI/Universal/plug.html#fixing-power-management-ssdt-plug) | Allow the kernel's XCPM(XNU's CPU Power Management) to manage CPU's power management. | [Functional]
 [SSDT-PMC.aml](https://github.com/corpnewt/SSDTTime) | It specifically brings back NVRAM support and requires very little configuration for the end user. | [Functional]
 [SSDT-PNLF.aml](https://dortania.github.io/Getting-Started-With-ACPI/Laptops/backlight.html) | Adds Backlight Control for Laptop Screens. | [Functional]
-[SSDT-PTSWAK.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/04_Fixing_Sleep_and_Wake_Issues/PTSWAK_Sleep_and_Wake_Fix) | Comprehensive Sleep and Wake Patch. | [Functional]
 [SSDT-PWRB-SLPB_STA0B.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/Power_and_Sleep_Button_(SSDT-PWRB:SSDT-SLPB)) | Enabling Power and Sleep Buttons. | [Functional]
 [SSDT-RTC_STA0F.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/System_Clock_(SSDT-RTC0)) | Force-enable the RTC Device. | [Functional]
 [SSDT-SBUS-MCHC.aml](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus.html) | Fixes System Management Bus and Memory Controller in macOS. | [Functional]
 
 
 ## Changelog
+<details>
+<summary>2023-04-25</summary>
+
+- <b>Added</b>
+  - Kernel
+    - Add
+      - USBToolBox: Inject Mapped USB ports.
+      - UTBMap: USB port map.
+- <b>Removed</b>
+  - Kernel
+    - Add
+      - USBMap
+      - USBMapLegacy
+  
+</details>  
+  
 <details>
 <summary>2022-04-25 21:43</summary>
 
