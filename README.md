@@ -134,6 +134,7 @@ Wi-Fi | Dell Wireless 1820A ac (BCM4350 + BCM2045A0) | ✅
 USB Wi-Fi | TL-WN823N | ✅ 
 
 - DW1820A not working on macOS Sonoma Beta 1. We have to use Intel Wi-Fi or USB Wi-Fi.
+- You have to install USB drivers for working USB adapter.
 
 ## macOS Update History
 
@@ -183,6 +184,7 @@ Fn shortcut keys   |  ✅
 Type | Info | Status
 :---------|:---------|:----------
 SMBIOS Settings  | After installation you should set your SMBIOS MBP14,1 with [GenSMBIOS] and ROM value for iCloud and Apple services. ROM value is your ethernet MAC address. |  ⚠️
+Rename USBPorts kext    |  After installation delete current kext and change "USBPorts-AfterInstallation" name. | ⚠️
 Rename config    |  If you have QCA rename qualcomm config. "config.plist". | ⚠️
   
 ## Kext Used
@@ -207,6 +209,8 @@ Kext | Info
 [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM) | BrcmPatchRAM kext is a macOS driver which applies PatchRAM updates for Broadcom RAMUSB based devices.
 [BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM) | Injecting bluetooth firmware on Monterey+.
 [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X) | OS X open source driver for the Realtek RTL8111/8168 family.
+[RtWlanU.kext](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter) | USB Wi-Fi adapter.
+[RtWlanU1827.kext](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter) | USB Wi-Fi adapter.
 [USBPorts]([https://www.youtube.com/watch?v=rlTDHkPzjAk&t=654s](https://github.com/benbaker76/Hackintool)) | Kext to inject mapped USB ports
   
 ## SSDT Used
@@ -232,6 +236,45 @@ SSDT | Info | Status
 
 
 ## Changelog
+<details>
+<summary>2023-06-07</summary>
+
+- <b>Added</b>
+  - Kernel
+    - Add
+      - USBPorts: For macOS Sonoma.
+      - RtWlanU: USB Wi-Fi Adapter for macOS Sonoma.
+      - RtWlanU1827: USB Wi-Fi Adapter for macOS Sonoma.
+  - NVRAM
+    - 7C436110-AB2A-4BBB-A880-FE41995C9F82
+      - bluetoothExternalDongleFailed
+        - 00 : Bluetooth Support for macOS 13.4 and later.
+      - bluetoothInternalControllerInfo
+        - 0000000000000000000000000000 : Bluetooth Support for macOS 13.4 and later.
+      - boot-args
+        - -lilubetaall for macOS Sonoma.
+        - -no_compat_check for macOS Sonoma.
+- <b>Changed</b>
+  - Kernel
+    - Add
+      - NVMEFix: Max Kernel 22.9.9. Because macOS Sonoma not supported.
+  - NVRAM
+    - 7C436110-AB2A-4BBB-A880-FE41995C9F82
+      - csr-active-config
+        - 03080000 for USB Wi-Fi Adapter.
+  - PlatformInfo
+    - SMBIOS to MBP15,1 for macOS Sonoma installation. Change to 14,1 after installation.
+- <b>Removed</b>
+  - ACPI
+    - Add
+      - SSDT-KBD.aml: Useless
+  - Kernel
+    - Add
+      - USBToolBox
+      - UTBMap
+  
+</details>  
+
 <details>
 <summary>2023-04-25</summary>
 
