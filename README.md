@@ -56,6 +56,12 @@
 
   <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Max%20CPU%20Frequency%20and%20Temperature.png" width="300"><img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Max%20CPU%20Usage.png" width="390">
 
+### Sonoma
+<p align="center">
+  <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/macOS%20Screenshots/macOS%20Sonoma.png">
+</p>
+</details>  
+  
 <details>
 <summary>Ventura</summary>
 <p align="center">
@@ -125,11 +131,14 @@ Camera | Acer Integrated Camera | ✅
 Type | Spec | Status
 :---------|:---------|:----------
 Wi-Fi | Dell Wireless 1820A ac (BCM4350 + BCM2045A0) | ✅
-  
+USB Wi-Fi | TL-WN823N | ✅ 
+
+- DW1820A not working on macOS Sonoma Beta 1. We have to use Intel Wi-Fi or USB Wi-Fi.
 
 ## macOS Update History
 
-- ✅ macOS Ventura 13.4
+- ✅ macOS Sonoma 14.0 (Currently testing)
+- ✅ macOS Ventura 13.4 (Currently using)
 - ✅ macOS Ventura 13.3.1
 - ✅ macOS Ventura 13.0 Beta 4
 - ✅ macOS Ventura 13.0 Beta 3
@@ -140,7 +149,7 @@ Wi-Fi | Dell Wireless 1820A ac (BCM4350 + BCM2045A0) | ✅
 - ✅ macOS Monterey 12.3
 - ✅ macOS Monterey 12.2.1
 - ✅ macOS Monterey 12.0.1
-- ✅ macOS Big Sur 11.7.3 (Currently using)
+- ✅ macOS Big Sur 11.7.3
 - ✅ macOS Big Sur 11.6.5
 - ✅ macOS Big Sur 11.6.1
 - ✅ macOS Big Sur 11.0.1
@@ -173,7 +182,7 @@ Fn shortcut keys   |  ✅
   
 Type | Info | Status
 :---------|:---------|:----------
-SMBIOS Settings  | With [GenSMBIOS] you should definitely set your SMBIOS MBP14,1 and ROM value for iCloud and Apple services. ROM value is your ethernet MAC address. |  ⚠️
+SMBIOS Settings  | After installation you should set your SMBIOS MBP14,1 with [GenSMBIOS] and ROM value for iCloud and Apple services. ROM value is your ethernet MAC address. |  ⚠️
 Rename config    |  If you have QCA rename qualcomm config. "config.plist". | ⚠️
   
 ## Kext Used
@@ -185,7 +194,7 @@ Kext | Info
 [SMCBatteryManager](https://github.com/acidanthera/VirtualSMC) | a member of VirtualSMC that parses battery info.
 [SMCProcessor](https://github.com/acidanthera/VirtualSMC) | a member of VirtualSMC that provides power info of processor temperature.
 [AppleALC.kext](https://github.com/acidanthera/AppleALC) | An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications.
-[NVMeFix](https://github.com/acidanthera/NVMeFix) | NVMeFix is a set of patches for the Apple NVMe storage driver, IONVMeFamily.
+[NVMeFix](https://github.com/acidanthera/NVMeFix) | NVMeFix is a set of patches for the Apple NVMe storage driver, IONVMeFamily. (Not working on Sonoma)
 [CPUFriend](https://github.com/acidanthera/CPUFriend) | A Lilu plug-in for dynamic power management data injection.
 [CPUFriendDataProvider](https://github.com/acidanthera/CPUFriend) | A CPUFriend plug-in for CPU power management.
 [FeatureUnlock](https://github.com/acidanthera/FeatureUnlock) | Lilu Kernel extension for enabling: Sidecar, NightShift, AirPlay to Mac, Universal Control.
@@ -198,8 +207,7 @@ Kext | Info
 [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM) | BrcmPatchRAM kext is a macOS driver which applies PatchRAM updates for Broadcom RAMUSB based devices.
 [BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM) | Injecting bluetooth firmware on Monterey+.
 [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X) | OS X open source driver for the Realtek RTL8111/8168 family.
-[USBToolBox]([https://www.youtube.com/watch?v=rlTDHkPzjAk&t=654s](https://github.com/USBToolBox/kext)) | Kext for mapped USB ports.
-[UTBMap]([https://www.youtube.com/watch?v=rlTDHkPzjAk&t=654s](https://github.com/USBToolBox/kext)) | Kext to inject mapped USB ports
+[USBPorts]([https://www.youtube.com/watch?v=rlTDHkPzjAk&t=654s](https://github.com/benbaker76/Hackintool)) | Kext to inject mapped USB ports
   
 ## SSDT Used
 SSDT | Info | Status
@@ -214,7 +222,6 @@ SSDT | Info | Status
 [SSDT-FIXSHUTDOWN.aml](https://dortania.github.io/OpenCore-Post-Install/usb/misc/shutdown.html#fixing-shutdown-restart) | Fixes Shutdown/Restart. Due to a missing S5 call that powers down the controller. | [Functional]
 [SSDT-FWHD.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/Fake_Firmware_Hub_(SSDT-FWHD)) | Adds Fake Firmware Hub Device (FWHD) device to the IORegistry in macOS. | [Cosmetic]
 [SSDT-HPET.aml](https://dortania.github.io/Getting-Started-With-ACPI/Universal/irq.html#fixing-irq-conflicts-ssdt-hpet-oc-patches-plist) | Fixes IRQ conflicts. Required for on-board sound to work. | [Functional]
-[SSDT-KBD.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/05_Laptop-specific_Patches/Brightness_Key_Shortcuts) | Enable Brightness Key Shortcuts with 11. and 12. ACPI Patch. (Using BrightnessKeys.kext with 13. ACPI Patch) | [Functional] <b>DISABLED</b>
 [SSDT-OC-XOSI.aml](https://dortania.github.io/Getting-Started-With-ACPI/ssdt-methods/ssdt-prebuilt.html#trackpad) | OS Check Fix patch to simulate a version of Windows for Darwin. | [Functional]
 [SSDT-PLUG.aml](https://dortania.github.io/Getting-Started-With-ACPI/Universal/plug.html#fixing-power-management-ssdt-plug) | Allow the kernel's XCPM(XNU's CPU Power Management) to manage CPU's power management. | [Functional]
 [SSDT-PMC.aml](https://github.com/corpnewt/SSDTTime) | It specifically brings back NVRAM support and requires very little configuration for the end user. | [Functional]
