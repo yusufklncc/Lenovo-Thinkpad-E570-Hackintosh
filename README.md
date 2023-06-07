@@ -24,7 +24,7 @@
 <a href="https://www.youtube.com/c/yusufklncc">
   <img src="https://img.shields.io/badge/-@yusufklncc-red?logo=YouTube&logoColor=white" width="150"/> </a>
 <a href="https://www.paypal.com/paypalme/sevenpay">
-  <img src="https://img.shields.io/badge/-@sevenpay-white?logo=PayPal&logoColor=blue" width="140"/> </a>
+  <img src="https://img.shields.io/badge/-@sevenpay-white?logo=PayPal" width="140"/> </a>
 <a href="https://www.buymeacoffee.com/yusufklncc">
   <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" width="150"/> </a>
 
