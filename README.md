@@ -7,16 +7,16 @@
 <h4 align="center"> OpenCore config for Hackintosh Lenovo Thinkpad E570 </h4>
 
 <p align="center">
-<a href="https://www.apple.com/macos/monterey/">
-  <img src="https://img.shields.io/badge/macOS-Ventura_v13.4-orange" width="215"/> </a>
+<a href="https://www.apple.com/macos/sonoma-preview/">
+  <img src="https://img.shields.io/badge/macOS-Sonoma_v14.0-green" width="215"/> </a>
 <a href="https://github.com/acidanthera/OpenCorePkg/releases">
-  <img src="https://img.shields.io/badge/OpenCore-0.9.2-9cf" width="155"/> </a>
+  <img src="https://img.shields.io/badge/OpenCore-0.9.3-9cf" width="155"/> </a>
 <a href="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/releases">
   <img src="https://img.shields.io/badge/release-EFI-blue.svg" width="115"/> </a>
   <a href="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/issues"> 
   <img src="https://img.shields.io/github/issues/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh" width="145"/> </a>
 <a href="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#changelog">
-  <img src="https://img.shields.io/badge/Changelog-green.svg" width="108"/> </a>
+  <img src="https://img.shields.io/badge/Changelog-orange.svg" width="108"/> </a>
 </p>
 <p align="center">
 <a href="https://t.me/yusufklncc">
