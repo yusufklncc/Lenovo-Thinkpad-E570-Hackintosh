@@ -38,6 +38,7 @@
   - [Kexts Used](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#kext-used)
   - [SSDTs Used](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#ssdt-used)
   - [Changelog](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#changelog)
+  - [Installation](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#installation-steps)
   - [How to make it better?](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#how-to-make-it-better)
     - [Advanced Resolution](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#advanced-resolution)
     - [Thinkpad's Click and Trackpad](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#thinkpads-click-and-trackpad)
@@ -188,41 +189,46 @@ Rename USBPorts kext    |  After installation delete current kext and change "US
 Rename config    |  If you have QCA rename qualcomm config. "config.plist". | ⚠️
   
 ## Kext Used
-Kext | Info
-:---------|:---------
-[Lilu](https://github.com/acidanthera/Lilu) | An open source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS.
-[VirtualSMC](https://github.com/acidanthera/VirtualSMC) | Advanced Apple SMC emulator in the kernel. Requires Lilu for full functioning.
-[WhateverGreen](https://github.com/acidanthera/WhateverGreen) | Various patches necessary for certain ATI/AMD/Intel/Nvidia GPUs. This is needed for Intel HD 620.
-[SMCBatteryManager](https://github.com/acidanthera/VirtualSMC) | a member of VirtualSMC that parses battery info.
-[SMCProcessor](https://github.com/acidanthera/VirtualSMC) | a member of VirtualSMC that provides power info of processor temperature.
-[AppleALC.kext](https://github.com/acidanthera/AppleALC) | An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications.
-[NVMeFix](https://github.com/acidanthera/NVMeFix) | NVMeFix is a set of patches for the Apple NVMe storage driver, IONVMeFamily. (Not working on Sonoma)
-[CPUFriend](https://github.com/acidanthera/CPUFriend) | A Lilu plug-in for dynamic power management data injection.
-[CPUFriendDataProvider](https://github.com/acidanthera/CPUFriend) | A CPUFriend plug-in for CPU power management.
-[FeatureUnlock](https://github.com/acidanthera/FeatureUnlock) | Lilu Kernel extension for enabling: Sidecar, NightShift, AirPlay to Mac, Universal Control.
-[HibernationFixup](https://github.com/acidanthera/HibernationFixup) | An open source kernel extension providing a sync between RTC variables and NVRAM.
-[RestrictEvents](https://github.com/acidanthera/RestrictEvents) | Lilu Kernel extension for blocking unwanted processes causing compatibility issues on different hardware and unlocking the support for certain features restricted to other hardware.
-[NoTouchID](https://github.com/al3xtjames/NoTouchID) | Lilu plugin for disabling Touch ID support.
-[VoodooPS2Controller](https://github.com/acidanthera/VoodooPS2) | Contains updated Voodoo PS/2 Controller, improved Keyboard & Synaptics TouchPad.
-[BrightnessKeys](https://github.com/acidanthera/BrightnessKeys) | Automatic handling of brightness keys based on ACPI Specification.
-[AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup) | An open source kernel extension providing a set of patches required for non-native Airport Broadcom Wi-Fi cards.
-[BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM) | BrcmPatchRAM kext is a macOS driver which applies PatchRAM updates for Broadcom RAMUSB based devices.
-[BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM) | Injecting bluetooth firmware on Monterey+.
-[RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X) | OS X open source driver for the Realtek RTL8111/8168 family.
-[RtWlanU.kext](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter) | USB Wi-Fi adapter.
-[RtWlanU1827.kext](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter) | USB Wi-Fi adapter.
-[USBPorts]([https://www.youtube.com/watch?v=rlTDHkPzjAk&t=654s](https://github.com/benbaker76/Hackintool)) | Kext to inject mapped USB ports
+Kext | Info | MinKernel | MaxKernel
+:---------|:---------|:---------|:---------
+[Lilu](https://github.com/acidanthera/Lilu) | An open source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS. | 8.0.0 |  
+[VirtualSMC](https://github.com/acidanthera/VirtualSMC) | Advanced Apple SMC emulator in the kernel. Requires Lilu for full functioning. | 8.0.0 |  
+[SMCBatteryManager](https://github.com/acidanthera/VirtualSMC) | a member of VirtualSMC that parses battery info. | 8.0.0 |  
+[SMCProcessor](https://github.com/acidanthera/VirtualSMC) | a member of VirtualSMC that provides power info of processor temperature. | 11.0.0 |  
+[WhateverGreen](https://github.com/acidanthera/WhateverGreen) | Various patches necessary for certain ATI/AMD/Intel/Nvidia GPUs. This is needed for Intel HD 620. | 10.0.0 |  
+[AppleALC.kext](https://github.com/acidanthera/AppleALC) | An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications. | 8.0.0 |  
+[NVMeFix](https://github.com/acidanthera/NVMeFix) | NVMeFix is a set of patches for the Apple NVMe storage driver, IONVMeFamily. | 18.0.0 |  22.9.9
+[CPUFriend](https://github.com/acidanthera/CPUFriend) | A Lilu plug-in for dynamic power management data injection. | 10.0.0 |  
+[CPUFriendDataProvider](https://github.com/acidanthera/CPUFriend) | A CPUFriend plug-in for CPU power management. | 10.0.0 |  
+[FeatureUnlock](https://github.com/acidanthera/FeatureUnlock) | Lilu Kernel extension for enabling: Sidecar, NightShift, AirPlay to Mac, Universal Control. | 16.5.0 |  
+[HibernationFixup](https://github.com/acidanthera/HibernationFixup) | An open source kernel extension providing a sync between RTC variables and NVRAM. | 16.0.0 |  
+[RestrictEvents](https://github.com/acidanthera/RestrictEvents) | Lilu Kernel extension for blocking unwanted processes causing compatibility issues on different hardware and unlocking the support for certain features restricted to other hardware. | 16.0.0 |  
+[NoTouchID](https://github.com/al3xtjames/NoTouchID) | Lilu plugin for disabling Touch ID support. | 16.0.0 |  19.5.9
+[VoodooPS2Controller](https://github.com/acidanthera/VoodooPS2) | Contains updated Voodoo PS/2 Controller, improved Keyboard & Synaptics TouchPad. | 15.0.0 |  
+[BrightnessKeys](https://github.com/acidanthera/BrightnessKeys) | Automatic handling of brightness keys based on ACPI Specification. | 16.0.0 |  
+[AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup) | An open source kernel extension providing a set of patches required for non-native Airport Broadcom Wi-Fi cards. |  |  
+[AirPortBrcm4360_Injector]() | An open source kernel extension providing a set of patches required for non-native Airport Broadcom Wi-Fi cards. |  | 16.9.9
+[AirPortBrcmNIC_Injector]() | An open source kernel extension providing a set of patches required for non-native Airport Broadcom Wi-Fi cards. |  | 21.9.9
+[BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM) | Injecting bluetooth firmware. | 21.0.0 |  
+[BrcmBluetoothInjector](https://github.com/acidanthera/BrcmPatchRAM) | Injecting bluetooth firmware. | 14.0.0 | 20.9.9
+[BrcmFirmwareData](https://github.com/acidanthera/BrcmPatchRAM) | BrcmPatchRAM kext is a macOS driver which applies PatchRAM updates for Broadcom RAMUSB based devices. | 14.0.0 |  
+[BrcmPatchRAM2](https://github.com/acidanthera/BrcmPatchRAM) | BrcmPatchRAM kext is a macOS driver which applies PatchRAM updates for Broadcom RAMUSB based devices. | 15.0.0 | 18.9.9
+[BrcmPatchRAM3](https://github.com/acidanthera/BrcmPatchRAM) | BrcmPatchRAM kext is a macOS driver which applies PatchRAM updates for Broadcom RAMUSB based devices. | 19.0.0 |  
+[RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X) | OS X open source driver for the Realtek RTL8111/8168 family. |  |  
+[RtWlanU](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter) | USB Wi-Fi adapter. |  |  
+[RtWlanU1827](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter) | USB Wi-Fi adapter. |  |  
+[HoRNDIS9.2](https://github.com/jwise/HoRNDIS) | Android USB Tethering. |  |  
+[USBPorts]([https://www.youtube.com/watch?v=rlTDHkPzjAk&t=654s](https://github.com/benbaker76/Hackintool)) | Kext to inject mapped USB ports |  |  
   
 ## SSDT Used
 SSDT | Info | Status
 :---------|:---------|:---------
 [SSDT-PTSWAK.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/04_Fixing_Sleep_and_Wake_Issues/PTSWAK_Sleep_and_Wake_Fix) | Comprehensive Sleep and Wake Patch. | [Functional]
+[SSDR-EXT5-TP-LED.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/04_Fixing_Sleep_and_Wake_Issues/PTSWAK_Sleep_and_Wake_Fix) | Fixes ThinkPads breathing light of the Power Button LED will not return to normal after waking up. Also fixes an issue where the F4 microphone indicator status is not normal after waking up on older ThinkPad models. | [Functional]
 [SSDT-AC.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/AC_Adapter_(SSDT-AC)) | Attaches an AC Adapter Device existing in a Laptop's DSDT to the AppleACPIACAdapter service in the IORegistry of macOS. | [Cosmetic]
 [SSDT-BATT.aml](https://dortania.github.io/OpenCore-Post-Install/laptop-specific/battery.html#battery-status) | Fixes the battery status indicator. | [Functional]
-[SSDT-CLICKPAD.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/05_Laptop-specific_Patches/Trackpad_Patches/ThinkPad_Click_and_TrackPad_Patches) | Fixes Touchpad Buttons but some error. Customize Touchpad Settings. | [Functional] <b>DISABLED</b>
 [SSDT-DMAC.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/DMA_Controller_(SSDT-DMAC)) | Adds Direct Memory Access Controller (DMAC) device to IORegistry. | [Cosmetic]
 [SSDT-EC-USBX.aml](https://dortania.github.io/Getting-Started-With-ACPI/Universal/ec-fix.html#fixing-embedded-controller-ssdt-ecusbx) | Adds a fake Embedded Controller (SSDT-EC) and enables USB Power Management (SSDT-EC-USBX). | [Functional]
-[SSDR-EXT5-TP-LED.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/04_Fixing_Sleep_and_Wake_Issues/PTSWAK_Sleep_and_Wake_Fix) | Fixes ThinkPads breathing light of the Power Button LED will not return to normal after waking up. Also fixes an issue where the F4 microphone indicator status is not normal after waking up on older ThinkPad models. | [Functional]
 [SSDT-FIXSHUTDOWN.aml](https://dortania.github.io/OpenCore-Post-Install/usb/misc/shutdown.html#fixing-shutdown-restart) | Fixes Shutdown/Restart. Due to a missing S5 call that powers down the controller. | [Functional]
 [SSDT-FWHD.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/Fake_Firmware_Hub_(SSDT-FWHD)) | Adds Fake Firmware Hub Device (FWHD) device to the IORegistry in macOS. | [Cosmetic]
 [SSDT-HPET.aml](https://dortania.github.io/Getting-Started-With-ACPI/Universal/irq.html#fixing-irq-conflicts-ssdt-hpet-oc-patches-plist) | Fixes IRQ conflicts. Required for on-board sound to work. | [Functional]
@@ -234,8 +240,19 @@ SSDT | Info | Status
 [SSDT-RTC_STA0F.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/System_Clock_(SSDT-RTC0)) | Force-enable the RTC Device. | [Functional]
 [SSDT-SBUS-MCHC.aml](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus.html) | Fixes System Management Bus and Memory Controller in macOS. | [Functional]
 
+## boot-args Used
+boot-arg | Info
+:---------|:---------
+-v | Enables verbose.
+-no_compat_check | macOS Sonoma not support MBP14,1. So we have to use this argument for boot Sonoma.
+brcmfx-country=#a | Changes the country code to XX (US, CN, #a, ...)
+darkwake=0 | Disables darkwake.
+swd_panic=1 | Avoids issue where going to sleep results in a reboot
+-noDC9 | Fixes sleep issues.
+-lilubetaall | Required for macOS Sonoma right now.
 
 ## Changelog
+
 <details>
 <summary>2023-06-07</summary>
 
@@ -404,7 +421,76 @@ SSDT | Info | Status
     - SMCLightSensor: Because laptop doesn't have a sensor.
   
 </details> 
+
+## Installation Steps
+
+### Downloading OSX Image
+
+- Click to OneDrive link and download it.
+  - [Ventura](https://github.com/yusufklncc/Hackintosh-for-All-Computers#-macos-ventura-)
+  - [Monterey](https://github.com/yusufklncc/Hackintosh-for-All-Computers#macos-monterey)
+  - [Big Sur](https://github.com/yusufklncc/Hackintosh-for-All-Computers#macos-big-sur)
+  - [Catalina](https://github.com/yusufklncc/Hackintosh-for-All-Computers#macos-catalina)
   
+### Writing OSX Image
+
+- Unzip the zip file to desktop.
+- Download balenaEtcher from this link https://www.balena.io/etcher/
+- Open program and click to "Flash from file"
+- Select the OSX image `(.raw file)` from the popup window.
+- Click to "Select target" and select OSX image.
+- Click to "Flash!" and allow app in popup window.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/78423442/154849816-0a04602a-9064-4780-9d4e-ed86254b4fea.png">
+
+- When writing is finished, `remove` the USB stick and plug it back in.
+
+### Setting EFI Folder
+
+- When you plug USB back, you can see EFI partition in "My Computer"
+- Open EFI partition.
+- Delete default files.
+- Copy downloaded EFI folder to EFI partititon.
+- Open EFI/OC and set your config file. 
+  - If you have Qualcomm Wi-Fi card. Delete default config and rename other one.
+- Now you can boot from USB.
+
+### Setting BIOS Settings 
+
+  - Before you start, reset your BIOS settings to default.
+  - `Disable`
+    - Secure Boot
+  - `Enable`
+    - CSM
+    
+### macOS Installation Steps
+- Now let's turn off our computer and boot from USB. Choose the `Install macOS Monterey` (whatever you have) option on OpenCore menu and go to the installation screen.
+- <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Installation/macOS%201.png">
+- What to do on the following screens:
+  - Select language and continue.
+  - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Installation/macOS%202.png">
+  - Open `Disk Utility` from the menu to prepare our disk.
+  - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Installation/macOS%203.png">
+  - Select `Show All Devices` from the `Display` option and select the name of our disk and click `Erase`.
+  - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Installation/macOS%204.png">
+  - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Installation/macOS%205.png">
+  - Rename the disk and erase as `APFS/GUID`.
+  - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Installation/macOS%206.png">
+  - Now close `Disk Utility` and select `Install macOS Monterey` then next next next.
+  - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Installation/macOS%208.png">
+  - Select renamed disk and click continue.
+  - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Installation/macOS%2010.png">
+  - When the installation is finished,  `macOS Installer` option will be selected automatically every boot step until this option is `gone`.
+  - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Installation/macOS%2011.png">
+  - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Installation/macOS%2012.png">
+  - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Installation/macOS%2013.png">
+  - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Installation/macOS%2014.png">
+  - After last boot, the language selection screen will welcome us. Select language and continue.
+  - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Installation/macOS%2015.png">
+  - Don't login `iCloud` account and continue. Because we need to set our `serial numbers and ROM for iCloud and iMessage`.
+  - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Installation/macOS%2016.png">
+  - Now we can see `Desktop`.
+  - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Installation/macOS%2017.png">
 
 ## How to make it better?
 <details>  
@@ -432,12 +518,7 @@ SSDT | Info | Status
 
 - Open RMD and select resolution what you want. This is only once.
 </details>  
-  
-<details>  
-  <summary> <h3>Thinkpad's Click and Trackpad</h3> </summary>
 
-- [Guide](https://github.com/5T33Z0/OC-Little-Translated/tree/main/05_Laptop-specific_Patches/Trackpad_Patches/ThinkPad_Click_and_TrackPad_Patches) | Some issues for me. You can try.
-</details>  
 <details>  
   <summary> <h3>DW1820A Windows 10 & 11 Driver</h3> </summary>
 
@@ -451,6 +532,7 @@ SSDT | Info | Status
  - [Acidanthera](https://github.com/acidanthera) for most of the kexts.
  - [RehabMan](https://github.com/RehabMan) for battery patches.
  - [Sniki](https://github.com/Sniki) for USB kext.
+ - Technopat Youtube for Installation images.
  - And anyone else that helped to develop and improve hackintoshing.
 
 <h1 align="center"> Donate - Bağış </h1>
