@@ -41,8 +41,6 @@
   - [Installation](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#installation-steps)
   - [How to make it better?](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#how-to-make-it-better)
     - [Advanced Resolution](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#advanced-resolution)
-    - [Thinkpad's Click and Trackpad](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#thinkpads-click-and-trackpad)
-    - [DW1820A Windows Driver](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#dw1820a-windows-1011-driver)
   - [Credits](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#credits)
   - [Donate](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#-donate---ba%C4%9F%C4%B1%C5%9F-)
   
@@ -141,20 +139,8 @@ USB Wi-Fi | TL-WN823N | ✅
 
 - ✅ macOS Sonoma 14.0 (Currently testing)
 - ✅ macOS Ventura 13.4 (Currently using)
-- ✅ macOS Ventura 13.3.1
-- ✅ macOS Ventura 13.0 Beta 4
-- ✅ macOS Ventura 13.0 Beta 3
 - ✅ macOS Monterey 12.6
-- ✅ macOS Monterey 12.4
-- ✅ macOS Monterey 12.4
-- ✅ macOS Monterey 12.3.1
-- ✅ macOS Monterey 12.3
-- ✅ macOS Monterey 12.2.1
-- ✅ macOS Monterey 12.0.1
 - ✅ macOS Big Sur 11.7.3
-- ✅ macOS Big Sur 11.6.5
-- ✅ macOS Big Sur 11.6.1
-- ✅ macOS Big Sur 11.0.1
 - ✅ macOS Catalina 10.15.7
 - ✅ macOS Mojave 10.14.6
 - ✅ macOS High Sierra 10.13.6
@@ -497,7 +483,7 @@ swd_panic=1 | Avoids issue where going to sleep results in a reboot
   <summary> <h3>Advanced Resolution</h3> </summary>
 
 - Use RDM for 1600x900 resolution which i am using currently. 
-  - [Download RDM](https://disk.yandex.com.tr/d/D9TtO3QEqAbtww)
+  - [Download RDM](https://onedrive.live.com/download?cid=83E8AF2D3EA2BA57&resid=83E8AF2D3EA2BA57%214113&authkey=ALMpGB-on3pqMmY)
   
 - 1366x768
   - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/RDM/1366x768.png" alt="1366x768" width="600"> 
