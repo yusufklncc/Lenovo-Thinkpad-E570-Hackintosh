@@ -34,11 +34,10 @@
   - [Modifications](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#modifications--)
   - [macOS Update History](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#macos-update-history)
   - [What's working](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#whats-working--)
-  - [What's you have to do](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#whats-you-have-to-do--)
   - [Kexts Used](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#kext-used)
   - [SSDTs Used](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#ssdt-used)
   - [Changelog](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#changelog)
-  - [Installation](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#installation-steps)
+  - [Installation Steps](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#installation-steps)
   - [How to make it better?](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#how-to-make-it-better)
     - [Advanced Resolution](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#advanced-resolution)
   - [Credits](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#credits)
@@ -136,7 +135,6 @@ USB Wi-Fi | TL-WN823N | ✅
 - You have to install USB drivers for working USB adapter.
 
 ## macOS Update History
-
 - ✅ macOS Sonoma 14.0 (Currently testing)
 - ✅ macOS Ventura 13.4 (Currently using)
 - ✅ macOS Monterey 12.6
@@ -165,14 +163,6 @@ S3 Sleep / Wake   |  ✅
 S4 Hibernation / Wake   |  ✅
 Shutdown / Reboot   |  ✅
 Fn shortcut keys   |  ✅
- 
-## What's you have to do  💻
-  
-Type | Info | Status
-:---------|:---------|:----------
-SMBIOS Settings  | After installation you should set your SMBIOS MBP14,1 with [GenSMBIOS] and ROM value for iCloud and Apple services. ROM value is your ethernet MAC address. |  ⚠️
-Rename USBPorts kext    |  After installation delete current kext and change "USBPorts-AfterInstallation" name. | ⚠️
-Rename config    |  If you have QCA rename qualcomm config. "config.plist". | ⚠️
   
 ## Kext Used
 Kext | Info | MinKernel | MaxKernel
@@ -209,22 +199,22 @@ Kext | Info | MinKernel | MaxKernel
 ## SSDT Used
 SSDT | Info | Status
 :---------|:---------|:---------
-[SSDT-PTSWAK.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/04_Fixing_Sleep_and_Wake_Issues/PTSWAK_Sleep_and_Wake_Fix) | Comprehensive Sleep and Wake Patch. | [Functional]
-[SSDR-EXT5-TP-LED.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/04_Fixing_Sleep_and_Wake_Issues/PTSWAK_Sleep_and_Wake_Fix) | Fixes ThinkPads breathing light of the Power Button LED will not return to normal after waking up. Also fixes an issue where the F4 microphone indicator status is not normal after waking up on older ThinkPad models. | [Functional]
-[SSDT-AC.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/AC_Adapter_(SSDT-AC)) | Attaches an AC Adapter Device existing in a Laptop's DSDT to the AppleACPIACAdapter service in the IORegistry of macOS. | [Cosmetic]
-[SSDT-BATT.aml](https://dortania.github.io/OpenCore-Post-Install/laptop-specific/battery.html#battery-status) | Fixes the battery status indicator. | [Functional]
-[SSDT-DMAC.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/DMA_Controller_(SSDT-DMAC)) | Adds Direct Memory Access Controller (DMAC) device to IORegistry. | [Cosmetic]
-[SSDT-EC-USBX.aml](https://dortania.github.io/Getting-Started-With-ACPI/Universal/ec-fix.html#fixing-embedded-controller-ssdt-ecusbx) | Adds a fake Embedded Controller (SSDT-EC) and enables USB Power Management (SSDT-EC-USBX). | [Functional]
-[SSDT-FIXSHUTDOWN.aml](https://dortania.github.io/OpenCore-Post-Install/usb/misc/shutdown.html#fixing-shutdown-restart) | Fixes Shutdown/Restart. Due to a missing S5 call that powers down the controller. | [Functional]
-[SSDT-FWHD.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/Fake_Firmware_Hub_(SSDT-FWHD)) | Adds Fake Firmware Hub Device (FWHD) device to the IORegistry in macOS. | [Cosmetic]
-[SSDT-HPET.aml](https://dortania.github.io/Getting-Started-With-ACPI/Universal/irq.html#fixing-irq-conflicts-ssdt-hpet-oc-patches-plist) | Fixes IRQ conflicts. Required for on-board sound to work. | [Functional]
-[SSDT-OC-XOSI.aml](https://dortania.github.io/Getting-Started-With-ACPI/ssdt-methods/ssdt-prebuilt.html#trackpad) | OS Check Fix patch to simulate a version of Windows for Darwin. | [Functional]
-[SSDT-PLUG.aml](https://dortania.github.io/Getting-Started-With-ACPI/Universal/plug.html#fixing-power-management-ssdt-plug) | Allow the kernel's XCPM(XNU's CPU Power Management) to manage CPU's power management. | [Functional]
-[SSDT-PMC.aml](https://github.com/corpnewt/SSDTTime) | It specifically brings back NVRAM support and requires very little configuration for the end user. | [Functional]
-[SSDT-PNLF.aml](https://dortania.github.io/Getting-Started-With-ACPI/Laptops/backlight.html) | Adds Backlight Control for Laptop Screens. | [Functional]
-[SSDT-PWRB-SLPB_STA0B.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/Power_and_Sleep_Button_(SSDT-PWRB:SSDT-SLPB)) | Enabling Power and Sleep Buttons. | [Functional]
-[SSDT-RTC_STA0F.aml](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/System_Clock_(SSDT-RTC0)) | Force-enable the RTC Device. | [Functional]
-[SSDT-SBUS-MCHC.aml](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus.html) | Fixes System Management Bus and Memory Controller in macOS. | [Functional]
+[SSDT-PTSWAK](https://github.com/5T33Z0/OC-Little-Translated/tree/main/04_Fixing_Sleep_and_Wake_Issues/PTSWAK_Sleep_and_Wake_Fix) | Comprehensive Sleep and Wake Patch. | Functional
+[SSDR-EXT5-TP-LED](https://github.com/5T33Z0/OC-Little-Translated/tree/main/04_Fixing_Sleep_and_Wake_Issues/PTSWAK_Sleep_and_Wake_Fix) | Fixes ThinkPads breathing light of the Power Button LED will not return to normal after waking up. Also fixes an issue where the F4 microphone indicator status is not normal after waking up on older ThinkPad models. | Functional
+[SSDT-AC](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/AC_Adapter_(SSDT-AC)) | Attaches an AC Adapter Device existing in a Laptop's DSDT to the AppleACPIACAdapter service in the IORegistry of macOS. | Cosmetic
+[SSDT-BATT](https://dortania.github.io/OpenCore-Post-Install/laptop-specific/battery.html#battery-status) | Fixes the battery status indicator. | Functional
+[SSDT-DMAC](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/DMA_Controller_(SSDT-DMAC)) | Adds Direct Memory Access Controller (DMAC) device to IORegistry. | Cosmetic
+[SSDT-EC-USBX](https://dortania.github.io/Getting-Started-With-ACPI/Universal/ec-fix.html#fixing-embedded-controller-ssdt-ecusbx) | Adds a fake Embedded Controller (SSDT-EC) and enables USB Power Management (SSDT-EC-USBX). | Functional
+[SSDT-FIXSHUTDOWN](https://dortania.github.io/OpenCore-Post-Install/usb/misc/shutdown.html#fixing-shutdown-restart) | Fixes Shutdown/Restart. Due to a missing S5 call that powers down the controller. | Functional
+[SSDT-FWHD](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/Fake_Firmware_Hub_(SSDT-FWHD)) | Adds Fake Firmware Hub Device (FWHD) device to the IORegistry in macOS. | Cosmetic
+[SSDT-HPET](https://dortania.github.io/Getting-Started-With-ACPI/Universal/irq.html#fixing-irq-conflicts-ssdt-hpet-oc-patches-plist) | Fixes IRQ conflicts. Required for on-board sound to work. | Functional
+[SSDT-OC-XOSI](https://dortania.github.io/Getting-Started-With-ACPI/ssdt-methods/ssdt-prebuilt.html#trackpad) | OS Check Fix patch to simulate a version of Windows for Darwin. | Functional
+[SSDT-PLUG](https://dortania.github.io/Getting-Started-With-ACPI/Universal/plug.html#fixing-power-management-ssdt-plug) | Allow the kernel's XCPM(XNU's CPU Power Management) to manage CPU's power management. | Functional
+[SSDT-PMC](https://github.com/corpnewt/SSDTTime) | It specifically brings back NVRAM support and requires very little configuration for the end user. | Functional
+[SSDT-PNLF](https://dortania.github.io/Getting-Started-With-ACPI/Laptops/backlight.html) | Adds Backlight Control for Laptop Screens. | Functional
+[SSDT-PWRB-SLPB_STA0B](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/Power_and_Sleep_Button_(SSDT-PWRB:SSDT-SLPB)) | Enabling Power and Sleep Buttons. | Functional
+[SSDT-RTC_STA0F](https://github.com/5T33Z0/OC-Little-Translated/tree/main/01_Adding_missing_Devices_and_enabling_Features/System_Clock_(SSDT-RTC0)) | Force-enable the RTC Device. | Functional
+[SSDT-SBUS-MCHC](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus.html) | Fixes System Management Bus and Memory Controller in macOS. | Functional
 
 ## boot-args Used
 boot-arg | Info
@@ -411,7 +401,6 @@ swd_panic=1 | Avoids issue where going to sleep results in a reboot
 ## Installation Steps
 
 ### Downloading OSX Image
-
 - Click to OneDrive link and download it.
   - [Ventura](https://github.com/yusufklncc/Hackintosh-for-All-Computers#-macos-ventura-)
   - [Monterey](https://github.com/yusufklncc/Hackintosh-for-All-Computers#macos-monterey)
@@ -419,20 +408,18 @@ swd_panic=1 | Avoids issue where going to sleep results in a reboot
   - [Catalina](https://github.com/yusufklncc/Hackintosh-for-All-Computers#macos-catalina)
   
 ### Writing OSX Image
-
 - Unzip the zip file to desktop.
-- Download balenaEtcher from this link https://www.balena.io/etcher/
-- Open program and click to "Flash from file"
-- Select the OSX image `(.raw file)` from the popup window.
-- Click to "Select target" and select OSX image.
-- Click to "Flash!" and allow app in popup window.
+- Download [balenaEtcher](https://www.balena.io/etcher/).
+- Open program and click to `Flash from file`.
+- Select the OSX image `.raw` file from the popup window.
+- Click to `Select target` and select OSX image.
+- Click to `Flash!` and allow app in popup window.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/78423442/154849816-0a04602a-9064-4780-9d4e-ed86254b4fea.png">
 
 - When writing is finished, `remove` the USB stick and plug it back in.
 
 ### Setting EFI Folder
-
 - When you plug USB back, you can see EFI partition in "My Computer"
 - Open EFI partition.
 - Delete default files.
@@ -442,14 +429,13 @@ swd_panic=1 | Avoids issue where going to sleep results in a reboot
 - Now you can boot from USB.
 
 ### Setting BIOS Settings 
-
   - Before you start, reset your BIOS settings to default.
   - `Disable`
     - Secure Boot
   - `Enable`
     - CSM
     
-### macOS Installation Steps
+### macOS Installation
 - Now let's turn off our computer and boot from USB. Choose the `Install macOS Monterey` (whatever you have) option on OpenCore menu and go to the installation screen.
 - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Installation/macOS%201.png">
 - What to do on the following screens:
@@ -477,6 +463,27 @@ swd_panic=1 | Avoids issue where going to sleep results in a reboot
   - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Installation/macOS%2016.png">
   - Now we can see `Desktop`.
   - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Installation/macOS%2017.png">
+
+### Post Installation
+- Open config file with `Text Edit`.
+  - Search `HideAuxiliary` and change `false` value to `true`.
+  - Search `SecureBootModel` and change `Disabled` value to `Default`.
+  - Search `boot-args` and delete `-v` argument.
+- Now we have to set our serial numbers and ROM value.
+  - Download [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS/archive/refs/heads/master.zip) and open .command file. If program asks `Download Python` download it. After that select option 3.
+  - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/GenSMBIOS/GenSMBIOS%201.png">
+  - Now list 5 SMBIOS first. `MacBookPro14,1`
+  - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/GenSMBIOS/GenSMBIOS%202.png">
+  - Select and copy first Serial.
+  - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/GenSMBIOS/GenSMBIOS%203.png">
+  - Go [check](https://checkcoverage.apple.com/) serial number. Your serial should be like this. If not, try second serial.
+  - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/GenSMBIOS/Check%20Serial.png">
+  - Search MacBookPro15,1 and replace `Type > SystemProductName, Serial > SystemSerialNumber, Board Serial > MLB and SmUUID > SystemUUID` values. Now we will set our ROM value.
+  - Go `System Setting > Netwotk > Ethernet > Details > Hardware`. If our MAC adress is `54:1A:AF:43:70:CA` remove `:` characters = `541AAF4370CA`. Convert it to [Base64](https://base64.guru/converter/encode/hex). 
+  - Now we have `VBqvQ3DK`. Replace this with ROM value and save config file.
+  - Delete default `USBPorts` kext in OC/Kexts and rename other one to `USBPorts`.
+  - Restart computer and press `Space` key on OpenCore menu. Then enter `ResetNVRAM`. After that BIOS settings may change. Check it and boot macOS.
+  - Now you can login iCloud, iMessage or other apple services and you can use macOS.
 
 ## How to make it better?
 <details>  
