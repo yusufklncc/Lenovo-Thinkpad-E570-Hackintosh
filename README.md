@@ -8,7 +8,7 @@
 
 <p align="center">
 <a href="https://www.apple.com/macos/sonoma-preview/">
-  <img src="https://img.shields.io/badge/macOS-Sonoma_v14.0-green" width="215"/> </a>
+  <img src="https://img.shields.io/badge/macOS-Sonoma-green" width="175"/> </a>
 <a href="https://github.com/acidanthera/OpenCorePkg/releases">
   <img src="https://img.shields.io/badge/OpenCore-0.9.3-9cf" width="155"/> </a>
 <a href="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/releases">
