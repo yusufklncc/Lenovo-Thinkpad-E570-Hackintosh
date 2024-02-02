@@ -4,7 +4,7 @@
   <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Images/Lenovo%20ThinkPad%20E570.png" alt="Thinkpad E570" width="750">
 </p>
 
-<h4 align="center"> OpenCore config for Hackintosh Lenovo Thinkpad E570 </h4>
+<h4 align="center"> OpenCoree config for Hackintosh Lenovo Thinkpad E570 </h4>
 
 <p align="center">
 <a href="https://www.apple.com/macos/sonoma-preview/">
