@@ -449,12 +449,12 @@ swd_panic=1 | Avoids issue where going to sleep results in a reboot
   - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Resources/Installation/macOS%202.png">
   - Open `Disk Utility` from the menu to prepare our disk.
   - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Resources/Installation/macOS%203.png">
-  - Select `Show All Devices` from the `Display` option and select the name of our disk and click `Erase`.
+  - Select `Show All Devices` from the `View` option and select the name of our disk and click `Erase`.
   - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Resources/Installation/macOS%204.png">
   - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Resources/Installation/macOS%205.png">
   - Rename the disk and erase as `APFS/GUID`.
   - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Resources/Installation/macOS%206.png">
-  - Now close `Disk Utility` and select `Install macOS Monterey` then next next next.
+  - Now close `Disk Utility` and select `Install macOS Sonoma` then next next next.
   - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Resources/Installation/macOS%208.png">
   - Select renamed disk and click continue.
   - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Resources/Installation/macOS%2010.png">
@@ -471,9 +471,31 @@ swd_panic=1 | Avoids issue where going to sleep results in a reboot
   - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Resources/Installation/macOS%2017.png">
 
 ### Post Installation
+
+<br>
+
+<details>
+<summary><b>Broadcom Wi-Fi - Sonoma</b></summary>
+  
+- Dowload and Open [OCLP](https://github.com/dortania/OpenCore-Legacy-Patcher/releases). Click `Post-Install Root Patch` button.
+<img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Resources/Broadcom%20Wi-Fi%20Activation%20-%20OCLP/oclp-menu.png">
+- Click `Start Root Patching`.
+<img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Resources/Broadcom%20Wi-Fi%20Activation%20-%20OCLP/post-install-menu.png">
+- Click `Yes` and type password.
+<img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Resources/Broadcom%20Wi-Fi%20Activation%20-%20OCLP/start-root-patch.png">
+<img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Resources/Broadcom%20Wi-Fi%20Activation%20-%20OCLP/root-patching.png">
+<img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Resources/Broadcom%20Wi-Fi%20Activation%20-%20OCLP/root-patching-2.png">
+- Click `Reboot`
+<img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Resources/Broadcom%20Wi-Fi%20Activation%20-%20OCLP/reboot-apply.png">
+- Wi-Fi started working.
+<img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Resources/Broadcom%20Wi-Fi%20Activation%20-%20OCLP/sonoma-wifi.png">
+  
+</details>  
+
 - Open config file with `Text Edit`.
   - Search `HideAuxiliary` and change `false` value to `true`.
   - Search `SecureBootModel` and change `Disabled` value to `Default`.
+    - If you have patched your system with `OCLP`, do not do this step.
   - Search `boot-args` and delete `-v` argument.
 - Now we have to set our serial numbers and ROM value.
   - Download [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS/archive/refs/heads/master.zip) and open .command file. If program asks `Download Python` download it. After that select option 3.
