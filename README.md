@@ -30,18 +30,18 @@
 
 ## Table of Contents
   - [Screenshots](#screenshots-)
-  - [Original Hardware](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#original-hardware--)
-  - [Modifications](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#modifications--)
-  - [macOS Update History](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#macos-update-history)
-  - [What's working](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#whats-working--)
-  - [Kexts Used](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#kext-used)
-  - [SSDTs Used](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#ssdt-used)
-  - [Changelog](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#changelog)
-  - [Installation Steps](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#installation-steps)
-  - [How to make it better?](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#how-to-make-it-better)
-    - [Advanced Resolution](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#advanced-resolution)
-  - [Credits](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#credits)
-  - [Donate](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#-donate---ba%C4%9F%C4%B1%C5%9F-)
+  - [Original Hardware](#original-hardware--)
+  - [Modifications](#modifications--)
+  - [macOS Update History](#macos-update-history)
+  - [What's working](#whats-working--)
+  - [Kexts Used](h#kext-used)
+  - [SSDTs Used](#ssdt-used)
+  - [Changelog](#changelog)
+  - [Installation Steps](#installation-steps)
+  - [How to make it better?](#how-to-make-it-better)
+    - [Advanced Resolution](#advanced-resolution)
+  - [Credits](#credits)
+  - [Donate](#-donate---ba%C4%9F%C4%B1%C5%9F-)
   
 ## Screenshots 📷
 
@@ -547,7 +547,6 @@ swd_panic=1 | Avoids issue where going to sleep results in a reboot
  - [Acidanthera](https://github.com/acidanthera) for most of the kexts.
  - [RehabMan](https://github.com/RehabMan) for battery patches.
  - [Sniki](https://github.com/Sniki) for USB kext.
- - Technopat Youtube for Installation images.
  - And anyone else that helped to develop and improve hackintoshing.
 
 <h1 align="center"> Donate - Bağış </h1>
