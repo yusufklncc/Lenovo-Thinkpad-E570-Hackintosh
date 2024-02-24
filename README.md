@@ -29,7 +29,7 @@
   <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" width="150"/> </a>
 
 ## Table of Contents
-  - [Screenshots](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#screenshots-)
+  - [Screenshots](#screenshots-)
   - [Original Hardware](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#original-hardware--)
   - [Modifications](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#modifications--)
   - [macOS Update History](https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh#macos-update-history)
