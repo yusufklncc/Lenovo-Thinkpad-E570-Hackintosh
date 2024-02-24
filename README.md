@@ -10,7 +10,7 @@
 <a href="https://www.apple.com/macos/sonoma-preview/">
   <img src="https://img.shields.io/badge/macOS-Sonoma-green" width="170"/> </a>
 <a href="https://github.com/acidanthera/OpenCorePkg/releases">
-  <img src="https://img.shields.io/badge/OpenCore-0.9.3-9cf" width="160"/> </a>
+  <img src="https://img.shields.io/badge/OpenCore-0.9.8-9cf" width="160"/> </a>
 <a href="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/releases">
   <img src="https://img.shields.io/badge/release-EFI-blue.svg" width="120"/> </a>
   <a href="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/issues"> 
