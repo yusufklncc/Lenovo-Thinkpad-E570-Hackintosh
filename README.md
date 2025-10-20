@@ -10,7 +10,7 @@
 <a href="https://www.apple.com/macos/sonoma-preview/">
   <img src="https://img.shields.io/badge/macOS-Sonoma-green" width="170"/> </a>
 <a href="https://github.com/acidanthera/OpenCorePkg/releases">
-  <img src="https://img.shields.io/badge/OpenCore-0.9.8-9cf" width="160"/> </a>
+  <img src="https://img.shields.io/badge/OpenCore-1.0.5-9cf" width="160"/> </a>
 <a href="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/releases">
   <img src="https://img.shields.io/badge/release-EFI-blue.svg" width="120"/> </a>
   <a href="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/issues"> 
@@ -141,8 +141,9 @@ USB Wi-Fi | TL-WN823N | ✅
 - You have to install USB drivers for working USB adapter.
 
 ## macOS Update History
-- ✅ macOS Sonoma 14.0 (Currently testing)
-- ✅ macOS Ventura 13.4 (Currently using)
+- ✅ macOS Tahoe 26.0.1 (Work in Progress)
+- ✅ macOS Sonoma 14.0
+- ✅ macOS Ventura 13.4
 - ✅ macOS Monterey 12.6
 - ✅ macOS Big Sur 11.7.3
 - ✅ macOS Catalina 10.15.7
@@ -234,6 +235,8 @@ swd_panic=1 | Avoids issue where going to sleep results in a reboot
 -lilubetaall | Required for macOS Sonoma right now.
 
 ## Changelog
+
+- You can check up to date changelogs from latest commits.
 
 <details>
 <summary>2023-06-07</summary>
@@ -506,10 +509,10 @@ swd_panic=1 | Avoids issue where going to sleep results in a reboot
   - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Resources/GenSMBIOS/GenSMBIOS%203.png">
   - Go [check](https://checkcoverage.apple.com/) serial number. Your serial should be like this. If not, try second serial.
   - <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/Resources/GenSMBIOS/Check%20Serial.png">
-  - Search MacBookPro15,1 and replace `Type > SystemProductName, Serial > SystemSerialNumber, Board Serial > MLB and SmUUID > SystemUUID` values. Now we will set our ROM value.
+  - Search MacBookPro16,1 and replace `Type > SystemProductName, Serial > SystemSerialNumber, Board Serial > MLB and SmUUID > SystemUUID` values. Now we will set our ROM value.
   - Go `System Setting > Netwotk > Ethernet > Details > Hardware`. If our MAC adress is `54:1A:AF:43:70:CA` remove `:` characters = `541AAF4370CA`. Convert it to [Base64](https://base64.guru/converter/encode/hex). 
   - Now we have `VBqvQ3DK`. Replace this with ROM value and save config file.
-  - Delete default `USBPorts` kext in OC/Kexts and rename other one to `USBPorts`.
+  - Delete default `USBPorts` or `USBPorts-Tahoe` kext in OC/Kexts and rename others to `USBPorts` or `USBPorts-Tahoe`.
   - Restart computer and press `Space` key on OpenCore menu. Then enter `ResetNVRAM`. After that BIOS settings may change. Check it and boot macOS.
   - Now you can login iCloud, iMessage or other apple services and you can use macOS.
 
