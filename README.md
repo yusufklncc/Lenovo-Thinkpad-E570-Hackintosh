@@ -68,6 +68,13 @@
 </details> 
 
 <details>
+<summary>Sequoia</summary>
+<p align="center">
+  <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/src/macOS%20Desktop/Sequoia-15.7.1.png">
+</p>
+</details>  
+
+<details>
 <summary>Sonoma</summary>
 <p align="center">
   <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/src/macOS%20Desktop/Sonoma-14-3.png">
