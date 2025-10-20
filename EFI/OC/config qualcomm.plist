@@ -678,6 +678,8 @@
                 <false/>
                 <key>AvoidRuntimeDefrag</key>
                 <true/>
+                <key>ClearTaskSwitchBit</key>
+                <false/>
                 <key>DevirtualiseMmio</key>
                 <false/>
                 <key>DisableSingleUser</key>
@@ -756,6 +758,17 @@
                     <string>Ethernet controller</string>
                     <key>model</key>
                     <string>RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x1D,0x3)/Pci(0x0,0x0)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,29,3/0,0</string>
+                    <key>device_type</key>
+                    <string>Network controller</string>
+                    <key>model</key>
+                    <string>BCM4350 802.11ac Wireless Network Adapter</string>
+                    <key>pci-aspm-default</key>
+                    <integer>1</integer>
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
                 <dict>
@@ -843,7 +856,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.7 | [Lilu] An open source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS.</string>
+                    <string>V1.7.1 | [Lilu] An open source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS.</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -861,7 +874,7 @@
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.2 | [SMC] next-generation SMC drivers</string>
+                    <string>V1.3.7 | [SMC] next-generation SMC drivers</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -879,7 +892,7 @@
                     <key>BundlePath</key>
                     <string>SMCBatteryManager.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.2 | [Battery] Battery Status Monitoring.</string>
+                    <string>V1.3.7 | [Battery] Battery Status Monitoring.</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -897,7 +910,7 @@
                     <key>BundlePath</key>
                     <string>SMCProcessor.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.2 | [CPUMon] a member of VirtualSMC that provides power info of processor</string>
+                    <string>V1.3.7 | [CPUMon] a member of VirtualSMC that provides power info of processor</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -915,7 +928,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.6 | [Graphics] Various patches necessary for certain ATI/AMD/Intel/Nvidia GPUs. This is needed for Intel HD 620.</string>
+                    <string>V1.7.0 | [Graphics] Various patches necessary for certain ATI/AMD/Intel/Nvidia GPUs. This is needed for Intel HD 620.</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -933,7 +946,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.8.9 | [Audio] Enable native macOS audio support</string>
+                    <string>V1.9.5 | [Audio] Enable native macOS audio support</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -951,7 +964,7 @@
                     <key>BundlePath</key>
                     <string>NVMeFix.kext</string>
                     <key>Comment</key>
-                    <string>V1.1.1 | [SSD] Enable native power management for 3rd-party NVMe devices</string>
+                    <string>V1.1.3 | [SSD] Enable native power management for 3rd-party NVMe devices</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -969,7 +982,7 @@
                     <key>BundlePath</key>
                     <string>CPUFriend.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.7 | [Processor] A Lilu plug-in for dynamic power management data injection.</string>
+                    <string>V1.3.0 | [Processor] A Lilu plug-in for dynamic power management data injection.</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1041,7 +1054,7 @@
                     <key>BundlePath</key>
                     <string>RestrictEvents.kext</string>
                     <key>Comment</key>
-                    <string>V1.1.2 | [Lilu] Kernel extension for blocking unwanted processes causing compatibility issues on different hardware and unlocking the support for certain features restricted to other hardware.</string>
+                    <string>V1.1.6 | [Lilu] Kernel extension for blocking unwanted processes causing compatibility issues on different hardware and unlocking the support for certain features restricted to other hardware.</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1057,27 +1070,9 @@
                     <key>Arch</key>
                     <string>x86_64</string>
                     <key>BundlePath</key>
-                    <string>NoTouchID.kext</string>
-                    <key>Comment</key>
-                    <string>V1.0.3 | [Compat] Disable Touch ID features</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/NoTouchID</string>
-                    <key>MaxKernel</key>
-                    <string>19.5.9</string>
-                    <key>MinKernel</key>
-                    <string>17.0.0</string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>x86_64</string>
-                    <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext</string>
                     <key>Comment</key>
-                    <string>V2.3.5 | [PS2] PS/2 keyboard / touchpad driver framework</string>
+                    <string>V2.3.7 | [PS2] PS/2 keyboard / touchpad driver framework</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1095,7 +1090,7 @@
                     <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext</string>
                     <key>Comment</key>
-                    <string>V1.1.4 | [Touchpad] PS/2 touchpad gesture provider</string>
+                    <string>V1.1.6 | [Touchpad] PS/2 touchpad gesture provider</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1113,7 +1108,7 @@
                     <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
                     <key>Comment</key>
-                    <string>V2.3.5 | [Keyboard] PS/2 keyboard driver</string>
+                    <string>V2.3.7 | [Keyboard] PS/2 keyboard driver</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1131,7 +1126,7 @@
                     <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext</string>
                     <key>Comment</key>
-                    <string>V2.3.5 | [Touchpad] PS/2 touchpad driver</string>
+                    <string>V2.3.7 | [Touchpad] PS/2 touchpad driver</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1158,6 +1153,204 @@
                     <string></string>
                     <key>MinKernel</key>
                     <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>x86_64</string>
+                    <key>BundlePath</key>
+                    <string>IOSkywalkFamily.kext</string>
+                    <key>Comment</key>
+                    <string>V1.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/IOSkywalkFamily</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string>23.0.0</string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>x86_64</string>
+                    <key>BundlePath</key>
+                    <string>IO80211FamilyLegacy.kext</string>
+                    <key>Comment</key>
+                    <string>V1200.12.2b1</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/IO80211FamilyLegacy</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string>23.0.0</string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>x86_64</string>
+                    <key>BundlePath</key>
+                    <string>IO80211FamilyLegacy.kext/Contents/PlugIns/AirPortBrcmNIC.kext</string>
+                    <key>Comment</key>
+                    <string>V1400.1.1</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/AirPortBrcmNIC</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string>23.0.0</string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>x86_64</string>
+                    <key>BundlePath</key>
+                    <string>AirportBrcmFixup.kext</string>
+                    <key>Comment</key>
+                    <string>V2.2.0 | [Wi-Fi] Broadcom wireless card (DW1830,DW1560, etc.) driver</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/AirportBrcmFixup</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>x86_64</string>
+                    <key>BundlePath</key>
+                    <string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcm4360_Injector.kext</string>
+                    <key>Comment</key>
+                    <string>V1.0 | [Wi-Fi] Broadcom wireless card (DW1830,DW1560, etc.) driver</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string></string>
+                    <key>MaxKernel</key>
+                    <string>16.9.9</string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>x86_64</string>
+                    <key>BundlePath</key>
+                    <string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcmNIC_Injector.kext</string>
+                    <key>Comment</key>
+                    <string>V1.0 | [Wi-Fi] Broadcom wireless card (DW1830,DW1560, etc.) driver</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string></string>
+                    <key>MaxKernel</key>
+                    <string>21.9.9</string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>x86_64</string>
+                    <key>BundlePath</key>
+                    <string>BlueToolFixup.kext</string>
+                    <key>Comment</key>
+                    <string>V2.7.1 | [Bluetooth] Injecting Bluetooth firmware</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/BlueToolFixup</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string>21.0.0</string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>x86_64</string>
+                    <key>BundlePath</key>
+                    <string>BrcmBluetoothInjector.kext</string>
+                    <key>Comment</key>
+                    <string>V2.6.7 | [Broadcom Bluetooth] Injecting Broadcom bluetooth firmware</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string></string>
+                    <key>MaxKernel</key>
+                    <string>20.9.9</string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>x86_64</string>
+                    <key>BundlePath</key>
+                    <string>BrcmFirmwareData.kext</string>
+                    <key>Comment</key>
+                    <string>V2.7.1 | [Broadcom Bluetooth] Injecting Broadcom bluetooth firmware</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/BrcmFirmwareData</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>x86_64</string>
+                    <key>BundlePath</key>
+                    <string>BrcmPatchRAM2.kext</string>
+                    <key>Comment</key>
+                    <string>V2.7.1 | [Broadcom Bluetooth] Injecting Broadcom bluetooth firmware</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/BrcmPatchRAM2</string>
+                    <key>MaxKernel</key>
+                    <string>18.9.9</string>
+                    <key>MinKernel</key>
+                    <string>15.0.0</string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>x86_64</string>
+                    <key>BundlePath</key>
+                    <string>BrcmPatchRAM3.kext</string>
+                    <key>Comment</key>
+                    <string>V2.7.1 | [Broadcom Bluetooth] Injecting Broadcom bluetooth firmware</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/BrcmPatchRAM3</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string>19.0.0</string>
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>
@@ -1253,7 +1446,24 @@
                 </dict>
             </array>
             <key>Block</key>
-            <array/>
+            <array>
+                <dict>
+                    <key>Arch</key>
+                    <string>x86_64</string>
+                    <key>Comment</key>
+                    <string>Allow IOSkywalkFamily Downgrade	</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Identifier</key>
+                    <string>com.apple.iokit.IOSkywalkFamily</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string>23.0.0</string>
+                    <key>Strategy</key>
+                    <string>Exclude</string>
+                </dict>
+            </array>
             <key>Emulate</key>
             <dict>
                 <key>Cpuid1Data</key>
@@ -1485,9 +1695,9 @@
                     <key>bluetoothInternalControllerInfo</key>
                     <data>AAAAAAAAAAAAAAAAAAA=</data>
                     <key>boot-args</key>
-                    <string>-no_compat_check darkwake=0 swd_panic=1 -noDC9 -lilubetaall -v</string>
+                    <string>amfi=0x80 -no_compat_check brcmfx-country=#a darkwake=0 swd_panic=1 -noDC9 -lilubetaall -v</string>
                     <key>csr-active-config</key>
-                    <data>AAAAAA==</data>
+                    <data>AwgAAA==</data>
                     <key>prev-lang:kbd</key>
                     <data></data>
                     <key>run-efi-updater</key>
@@ -1841,6 +2051,8 @@
                 <false/>
             </dict>
             <key>ReservedMemory</key>
+            <array/>
+            <key>Unload</key>
             <array/>
         </dict>
     </dict>
