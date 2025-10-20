@@ -153,11 +153,11 @@ Type | Spec | Status
 Wi-Fi | Dell Wireless 1820A ac (BCM4350 + BCM2045A0) | ✅
 USB Wi-Fi | TL-WN823N | ✅ 
 
-- DW1820A not working on macOS Sonoma Beta 1. We have to use Intel Wi-Fi or USB Wi-Fi.
-- You have to install USB drivers for working USB adapter.
 
 ## macOS Update History
-- ✅ macOS Tahoe 26.0.1 (Work in Progress)
+- ✅ macOS Tahoe 26.0.1 (Wi-Fi and Audio not working)
+- ✅ macOS Sequoia 15.7.1
+- ✅ macOS Sonoma 14.3
 - ✅ macOS Sonoma 14.0
 - ✅ macOS Ventura 13.4
 - ✅ macOS Monterey 12.6
