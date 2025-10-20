@@ -453,6 +453,9 @@ swd_panic=1 | Avoids issue where going to sleep results in a reboot
   - If you have Qualcomm Wi-Fi card. Delete default config and rename other one.
 - Now you can boot from USB.
 
+#### Note for Broadcom Cards.
+- Dowload [OCLP](https://github.com/dortania/OpenCore-Legacy-Patcher/releases) and keep for post installation.
+
 ### Setting BIOS Settings 
   - Before you start, reset your BIOS settings to default.
   - `Disable`
@@ -494,9 +497,9 @@ swd_panic=1 | Avoids issue where going to sleep results in a reboot
 <br>
 
 <details>
-<summary><b>Broadcom Wi-Fi - Sonoma</b></summary>
+<summary><b>Broadcom Wi-Fi - Sonoma and Sequoia</b></summary>
   
-- Dowload and Open [OCLP](https://github.com/dortania/OpenCore-Legacy-Patcher/releases). Click `Post-Install Root Patch` button.
+- Open [OCLP](https://github.com/dortania/OpenCore-Legacy-Patcher/releases). Click `Post-Install Root Patch` button.
 <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/src/Broadcom%20Wi-Fi%20Activation%20-%20OCLP/oclp-menu.png">
 - Click `Start Root Patching`.
 <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/src/Broadcom%20Wi-Fi%20Activation%20-%20OCLP/post-install-menu.png">
@@ -508,6 +511,7 @@ swd_panic=1 | Avoids issue where going to sleep results in a reboot
 <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/src/Broadcom%20Wi-Fi%20Activation%20-%20OCLP/reboot-apply.png">
 - Wi-Fi started working.
 <img src="https://github.com/yusufklncc/Lenovo-Thinkpad-E570-Hackintosh/blob/main/src/Broadcom%20Wi-Fi%20Activation%20-%20OCLP/sonoma-wifi.png">
+- If you are planning to update macOS version, you have to revert root patches before. After updating macOS, follow steps above.
   
 </details>  
 
